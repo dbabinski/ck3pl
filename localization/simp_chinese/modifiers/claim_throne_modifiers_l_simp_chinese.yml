@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+ claim_throne_increased_responsibility:0 "增加的责任"
+ claim_throne_increased_responsibility_desc:0 "我已对这个国家有了更大的责任，如此增强了我的正统性。"
+
+ claim_throne_bought_support_modifier:0 "收买支持"
+
+ claim_throne_liege_ill_omens_modifier:0 "领主：坏兆头"
+
+ claim_throne_self_declared_modifier:0 "萝卜之主"
+
+ claim_throne_friend_support_modifier:0 "朋友的支持"
+
+ claim_throne_preparing_for_struggle_modifier:0 "准备作战"
+ claim_throne_preparing_for_struggle_modifier_desc:0 "该角色正在准备对他们的领主进行必然的战争。"
+
+ claim_throne_claimed_world_modifier:0 "全蔬之主"

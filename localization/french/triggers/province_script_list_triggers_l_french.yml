@@ -1,0 +1,11 @@
+﻿l_french:
+
+ ALL_PROVINCES:0 "Toutes les baronnies :"
+ ANY_PROVINCE:0 "N'importe quelle baronnie :"
+
+ ALL_REALM_PROVINCES:0 "Toutes les baronnies du pays :"
+ ANY_REALM_PROVINCE:0 "N'importe quelle baronnie du pays :"
+ ALL_OF_MY_REALM_PROVINCES:1 "Toutes les baronnies de votre pays :"
+ ANY_OF_MY_REALM_PROVINCES:1 "N'importe laquelle des baronnies de votre pays :"
+ ALL_OF_THEIR_REALM_PROVINCES:0 "Toutes les baronnies du pays [CHARACTER.Custom('FR_only_du_GetShortUIName')][CHARACTER.GetShortUIName] :"
+ ANY_OF_THEIR_REALM_PROVINCES:0 "N'importe quelle baronnie du pays [CHARACTER.Custom('FR_only_du_GetShortUIName')][CHARACTER.GetShortUIName] :"

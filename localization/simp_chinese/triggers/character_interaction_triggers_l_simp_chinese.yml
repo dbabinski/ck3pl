@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+
+ IS_PLAYER_HEIR_OF:0 "#D TODO或许应由规范版本替换本项触发！#!"
+
+ CHARACTER_IS_PRESSING_TARGET_CHARACTERS_CLAIM:0 "[CHARACTER.GetShortUIName|U]正在索取[TARGET_CHARACTER.GetShortUINamePossessive]的宣称"

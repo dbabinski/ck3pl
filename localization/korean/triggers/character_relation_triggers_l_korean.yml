@@ -1,0 +1,43 @@
+﻿l_korean:
+
+ IS_AT_WAR_WITH_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName|V](와)과 [war|E]을 치르는 중임"
+ NOT_IS_AT_WAR_WITH_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName|V](와)과 [war|E]을 치르는 중이 #bold 아님#!"
+ I_AM_AT_WAR_WITH_TRIGGER:1 "[TARGET_CHARACTER.GetShortUIName|V](와)과 [war|E]을 치르는 중임"
+ NOT_I_AM_AT_WAR_TRIGGER:1 "[war|E]을 치르는 중이 #bold 아님#!"
+ NOT_I_AM_AT_WAR_WITH_TRIGGER:1 "[TARGET_CHARACTER.GetShortUIName|V](와)과 [war|E]을 치르는 중이 #bold 아님#!"
+ THEY_ARE_AT_WAR_WITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V](은)는 [TARGET_CHARACTER.GetShortUIName|V](와)과 [war|E]을 치르는 중임"
+ NOT_THEY_ARE_AT_WAR_WITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V](은)는 [TARGET_CHARACTER.GetShortUIName|V](와)과 [war|E]을 치르는 중이 #bold 아님#!"
+
+ IS_ALLIED_TO_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E]을 맺음"
+ NOT_IS_ALLIED_TO_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E]을 맺지 #bold 않음#!"
+ I_AM_ALLIED_TO_TRIGGER:1 "[TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E]을 맺음"
+ NOT_I_AM_ALLIED_TO_TRIGGER:1 "[TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E]을 맺지 #bold 않음#!"
+ THEY_ARE_ALLIED_TO_TRIGGER:0 "[CHARACTER.GetShortUIName|V](은)는 [TARGET_CHARACTER.GetShortUIName|V](와)과 동맹을 맺음"
+ NOT_THEY_ARE_ALLIED_TO_TRIGGER:0 "[CHARACTER.GetShortUIName|V](은)는 [TARGET_CHARACTER.GetShortUIName|V](와)과 동맹을 맺지 #bold 않음#!"
+
+ IS_ALLIED_IN_WAR_GLOBAL:0 "[war|E]을 치를 시에 [TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E] 관계임"
+ NOT_IS_ALLIED_IN_WAR_GLOBAL:0 "[war|E]을 치를 시에 [TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E] 관계가 #bold 아님#!"
+ IS_ALLIED_IN_WAR_FIRST:1 "[war|E]을 치를 시에 [TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E] 관계임"
+ NOT_IS_ALLIED_IN_WAR_FIRST:1 "[war|E]을 치를 시에 [TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E] 관계가 #bold 아님#!"
+ IS_ALLIED_IN_WAR_THIRD:0 "[war|E]을 치를 시에 [CHARACTER.GetShortUIName|V](은)는 [TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E] 관계임"
+ NOT_IS_ALLIED_IN_WAR_THIRD:0 "[war|E]을 치를 시에 [CHARACTER.GetShortUIName|V](은)는 [TARGET_CHARACTER.GetShortUIName|V](와)과 [allied|E] 관계가 #bold 아님#!"
+
+ THEY_ARE_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V](은)는 주군 혹은 주군의 주군임"
+ NOT_THEY_ARE_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V](은)는 주군 혹은 주군의 주군이 #bold 아님#!"
+ THEY_ARE_MY_LIEGE_OR_ABOVE:1 "[TARGET_CHARACTER.GetShortUIName|V](은)는 당신의 [liege|E] 혹은 주군의 주군임"
+ NOT_THEY_ARE_MY_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V](은)는 당신의 [liege|E] 혹은 주군의 주군이 #bold 아님#!"
+ THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V](은)는 [CHARACTER.GetShortUINamePossessive] [liege|E] 혹은 주군의 주군임"
+ NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V](은)는 [CHARACTER.GetShortUINamePossessive] [liege|E] 혹은 주군의 주군이 #bold 아님#!"
+
+ THEY_ARE_VASSAL_OR_BELOW:0 "[TARGET_CHARACTER.GetShortUIName|V](은)는 봉신임"
+ NOT_THEY_ARE_VASSAL_OR_BELOW:0 "[TARGET_CHARACTER.GetShortUIName|V](은)는 봉신이 #bold 아님#!"
+
+ IS_ATTRACTED_TO_WOMEN_TRIGGER:0 "여성에게 끌림"
+ NOT_IS_ATTRACTED_TO_WOMEN_TRIGGER:0 "여성에게 끌리지 #bold 않음#!"
+
+ IS_ATTRACTED_TO_MEN_TRIGGER:0 "남성에게 끌림"
+ NOT_IS_ATTRACTED_TO_MEN_TRIGGER:0 "남성에게 끌리지 #bold 않음#!"
+
+ HAS_SEXUALITY_TRIGGER:0 "$SEXUALITY|V$자임"
+
+ IS_ATTRACTED_TO:0 "[TARGET_CHARACTER.GetShortUIName]에게 끌림"

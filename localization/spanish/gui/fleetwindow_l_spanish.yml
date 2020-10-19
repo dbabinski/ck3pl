@@ -1,0 +1,19 @@
+﻿# === [LocEditor:OrphanedFile] File contains only orphaned keys ===
+l_spanish:
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ FW_FLEET_HEADER:0 "Flota"
+ FW_GATHERING_FLEET_HEADER:0 "Reuniendo flota"
+ FW_SHIPS_INFO:0 "$VALUE|V$ barcos"
+ FW_CAPACITY_INFO:0 "Puede llevar $VALUE|V$ [soldiers|E]"
+ FW_GATHERING_INFO:0 "Reuniendo: quedan $VALUE$"
+ CANNOT_DISBAND_WHILE_EMBARKED:0 "@warning_icon!#X No se pueden disolver [fleets|E] que estén embarcando o embarcarán tropas#!"
+ CANNOT_MERGE_NO_FLEETS:0 "@warning_icon!#X No se han seleccionado [fleets|E] que unir#!"
+ CANNOT_SPLIT_FLEET_EMBARKED:0 "@warning_icon!#X Solo se pueden separar los barcos que no lleven tropas#!"
+ CANNOT_SPLIT_FLEET_FEW_SHIPS:0 "@warning_icon!#X No hay barcos suficientes en la [fleet|E]#!"
+ DISBAND_FLEET_CONFIRM_TITLE:0 "Disolver"
+ DISBAND_FLEET_CONFIRM:0 "¿Disolver de verdad una [fleet|E] de $VALUE|V$ barcos?"
+ DISBAND_FLEET_CONFIRM_SHIPS_LOSS:0 "¿Disolver de verdad una [fleet|E] de $VALUE|V$ barcos?\nSe perderán $LOSS|V$ barcos y volverán gradualmente con el paso del tiempo"
+ DISBAND_FLEET:0 "#T Disolver [fleet|E]#! "
+ MERGE_FLEET:0 "#T Unir [fleets|E]#!"
+ SPLIT_FLEET_IN_HALF:0 "#T Dividir esta [fleet|E] en dos#!"

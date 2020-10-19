@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+ KILL_LIST:0 "杀人清单"
+ KILL_LIST_LABEL:0 "[KillListWindow.GetCharacter.GetUINamePossessive|U]所杀之人"
+ OPEN_KILL_LIST_TOOLTIP:0 "打开杀人清单"
+ DEATH_DATE:0 "死亡日期"
+ DEATH_REASON:0 "死亡原因"

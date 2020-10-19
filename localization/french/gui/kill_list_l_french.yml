@@ -1,0 +1,6 @@
+﻿l_french:
+ KILL_LIST:0 "Liste de tués"
+ KILL_LIST_LABEL:0 "Tués [KillListWindow.GetCharacter.Custom('FR_only_du_GetShortUIName')][KillListWindow.GetCharacter.GetUIName]"
+ OPEN_KILL_LIST_TOOLTIP:0 "Ouvrir la liste de tués"
+ DEATH_DATE:0 "Date du décès"
+ DEATH_REASON:0 "Cause du décès"

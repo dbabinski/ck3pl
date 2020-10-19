@@ -1,0 +1,86 @@
+﻿l_spanish:
+ #Different religion/culture notifications
+ councillor_spouse_learning.1001.religion.t:0 "Espos[councillor.Custom('ES_OA')] media con vasallo [SCOPE.sC('councillor').GetFaith.GetAdherentNameNoTooltip]"
+ councillor_spouse_learning.1001.culture.t:0 "Espos[councillor.Custom('ES_OA')] media con vasallo [SCOPE.sC('councillor').GetCulture.GetNameNoTooltip]"
+
+ councillor_spouse_learning.1002.religion.t:0 "Espos[councillor.Custom('ES_OA')] media con [SCOPE.sC('councillor').Custom2('RelationToMeShort' , SCOPE.sC('opinion_house_member'))|U] [SCOPE.sC('councillor').GetFaith.GetAdherentNameNoTooltip]"
+ councillor_spouse_learning.1002.culture.t:0 "Espos[councillor.Custom('ES_OA')] media con [SCOPE.sC('councillor').Custom2('RelationToMeShort' , SCOPE.sC('opinion_house_member'))|U] [SCOPE.sC('councillor').GetCulture.GetNameNoTooltip]"
+
+ #Same religion/culture notifications
+ councillor_spouse_learning.1003.religion.desc:0 "Espos[councillor.Custom('ES_OA')] media con súbditos [SCOPE.sC('councillor').GetFaith.GetAdherentNamePluralNoTooltip]"
+ councillor_spouse_learning.1003.culture.desc:0 "Espos[councillor.Custom('ES_OA')] media con súbditos [SCOPE.sC('councillor').GetCulture.GetNameNoTooltip]s"
+ councillor_spouse_learning.1301.t:1 "Cónyuge: Influencia sobre conversión religiosa"
+ councillor_spouse_learning.1302.t:1 "Cónyuge: Influencia sobre conversión cultural"
+ councillor_spouse_learning.1303.desc:0 "Espos[councillor.Custom('ES_OA')] patrocina a teólogos"
+
+ #General learning notifications
+ councillor_spouse_learning.1601.desc:1 "Tu cónyuge ayuda en tus estudios de [ROOT.Char.Custom('LifestyleFocus')|U]"
+ councillor_spouse_learning.1602.t:1 "[tutored_child.GetDaughterSon] florece bajo la tutela [councillor.Custom('ES_DelDela')] cónyuge"
+ councillor_spouse_learning.1603.root_guardian.t:0 "Pupilo aprecia la tutela [councillor.Custom('ES_DelDela')] cónyuge"
+ councillor_spouse_learning.1603.spouse_guardian.t:0 "Pupilo [councillor.Custom('ES_DelDela')] cónyuge aprecia su tutela"
+ councillor_spouse_learning.1603.other_guardian.t:0 "Pupilo en corte aprecia la tutela [councillor.Custom('ES_DelDela')] cónyuge"
+
+ add_patronage_spouse_education_points_effect.t:0 "Niño beneficiado por tutela [councillor.Custom('ES_DelDela')] cónyuge"
+ add_patronage_spouse_education_points_effect.desc:1 "Es más probable que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))], [patronage_student.GetTitledFirstName], reciba una buena [education|lE] gracias a [councillor.LocalPlayerString( 'mi ', 'la' )] tutela[councillor.LocalPlayerString( '', 'Loc_ES_de_GetTitledFirstName' )]."
+ add_patronage_spouse_education_points_child_effect.desc:0 "Es más probable que mi [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName], reciba una buena [education|lE] gracias a [councillor.LocalPlayerString( 'mi ', 'la' )] tutela[councillor.LocalPlayerString( '', 'Loc_ES_de_GetTitledFirstName' )]."
+ 
+ #Events
+ councillor_spouse_learning.2601.t:1 "Cónyuge: Continuando la educación"
+ councillor_spouse_learning.2601.not_scholarly.desc:0 "«No te haría daño leer un libro de vez en cuando», suele decirme mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [councillor.Custom('ES_ElLa')] estudios[councillor.Custom('ES_OA')] [SCOPE.sC('councillor').GetTitledFirstName]. Se ha ofrecido a ser mi tutor[councillor. Custom('ES_XA')], si necesito ayuda para ir empezando."
+ councillor_spouse_learning.2601.scholarly.desc:0 "Cada vez que mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [SCOPE.sC('councillor').GetTitledFirstName] me encuentra inclinad[ROOT.Char.Custom('ES_OA')] sobre un libro, se entusiasma notablemente.\n\n«¿Quieres que te ayude con los estudios? ¿Alguien con quien intercambiar ideas o nuevos volúmenes? ¡Acabo de adquirir un tomo con un análisis excelente de [ROOT.Char.Custom('education_conversation_subject')]!»"
+ councillor_spouse_learning.2601.a:0 "Sí, agradecería tu orientación."
+ councillor_spouse_learning.2601.b:0 "[SCOPE.sC('tutoring_student_1').GetTitledFirstNameNoTooltip] necesita más tu ayuda que yo."
+ councillor_spouse_learning.2601.c:0 "Mejor tutela a [SCOPE.sC('tutoring_student_2').GetTitledFirstNameNoTooltip]."
+ councillor_spouse_learning.2601.d:0 "Céntrate en vuestros estudios."
+ councillor_spouse_learning_2601_tutoring_effect.critical_success:0 "La comprensión de [THIS.Char.GetTitledFirstNameOrMeNoTooltip|U] de [THIS.Char.Custom('education_focus')] aumenta enormemente"
+ councillor_spouse_learning_2601_tutoring_effect.success:0 "La comprensión de [THIS.Char.GetTitledFirstNameOrMeNoTooltip|U] de [THIS.Char.Custom('education_focus')] aumenta"
+ 
+
+ councillor_spouse_learning.2001.faith.t:1 "Cónyuge: Disidencia con [councillor.GetFaith.GetAdjectiveNoTooltip]"
+ councillor_spouse_learning.2001.culture.t:1 "Cónyuge: Disidencia con [councillor.GetCulture.GetNameNoTooltip]"
+ councillor_spouse_learning.2001.start.desc:0 "¡[SCOPE.sC('faction_leader').GetTitledFirstName] y su conspiradora hermandad"
+ councillor_spouse_learning.2001.faith.desc:0 "¡[SCOPE.sC('councillor').GetFaith.GetAdjectiveNoTooltip]"
+ councillor_spouse_learning.2001.culture.desc:0 "[SCOPE.sC('councillor').GetCulture.GetNameNoTooltip]"
+ councillor_spouse_learning.2001.middle.desc:0 "en el [different_culture_or_faith_faction.GetName] no me dan ni un momento de paz!"
+ councillor_spouse_learning.2001.independence_faction.desc:0 "Deberían ser súbditos leales, pero se que conspiran contra mí."
+ councillor_spouse_learning.2001.liberty_faction.desc:0 "Siempre están buscando socavar mi autoridad."
+ councillor_spouse_learning.2001.claimant_faction.desc:0 "Esos ladrones deshonorables  quieren arrebatarme la tierra que me pertenece legítimamente."
+ councillor_spouse_learning.2001.end.desc:0 "\n\nPor fortuna, como «un(councillor.Custom('ES_XA') de los suyos», mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] tiene una cierta influencia sobre ellos. Se ha ofrecido a mediar y quiere saber cómo proceder."
+ councillor_spouse_learning.2001.a.faith:0 "Apaciguar a los miembros de la facción [SCOPE.sC('councillor').GetFaith.GetAdjectiveNoTooltip]."
+ councillor_spouse_learning.2001.a.culture:0 "Apaciguar a los miembros de la facción [SCOPE.sC('councillor').GetCulture.GetNameNoTooltip]."
+ councillor_spouse_learning.2001.a.faction_members_faith:0 "Todo miembro [SCOPE.sC('councillor').GetFaith.GetAdjective] de la [different_culture_or_faith_faction.GetName]"
+ councillor_spouse_learning.2001.a.faction_members_culture:0 "Todo miembro  [SCOPE.sC('councillor').GetCulture.GetName] de la [different_culture_or_faith_faction.GetName]"
+ councillor_spouse_learning.2001.b:0 "Hacer que [SCOPE.sC('faction_member_1').GetTitledFirstNameNoTooltip] abandone la facción."
+ councillor_spouse_learning.2001.c:0 "Convencer a [SCOPE.sC('faction_member_2').GetTitledFirstNameNoTooltip] de que siga leal a mí."
+
+ councillor_spouse_learning.2301.t:1 "Cónyuge: Un poder superior"
+ councillor_spouse_learning.2301.desc:0 "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [SCOPE.sC('councillor').GetTitledFirstName] se ha convertido en una figura bien conocida en el mundo religioso. Su patrocinio de teólogos [SCOPE.sC('councillor').GetFaith.GetAdherentNamePluralNoTooltip], [SCOPE.sC('councillor').GetFaith.HouseOfWorshipPlural], y órdenes ha atraído la atención de [SCOPE.sC('religious_head').GetTitledFirstName] en persona.\n\nLa gratitud [religious_head.Custom('ES_DelDela')] [SCOPE.sC('religious_head').GetTitleAsNameNoTooltip] tiene beneficios poderosos. Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] se ha ofrecido a contactar con [SCOPE.sC('religious_head').GetSheHe] en mi nombre."
+ councillor_spouse_learning.2301.a:0 "¿Puedes presentarnos?"
+ councillor_spouse_learning.2301.a.success:0 "He hecho amistad con [SCOPE.sC('religious_head').GetTitledFirstName]."
+ councillor_spouse_learning.2301.b:0 "¿Y qué puede hacer [SCOPE.sC('religious_head').GetSheHe] por nosotros a cambio?"
+ councillor_spouse_learning.2301.c:0 "¡Es mi oportunidad para que me vuelvan a acoger en la comunidad religiosa!"
+ councillor_spouse_learning.2301.d:0 "Que [SCOPE.sC('religious_head').GetSheHe] sepa que todo lo que hacemos es por [SCOPE.sC('councillor').GetFaith.HighGodName]."
+
+ councillor_spouse_learning.2602.t:1 "Cónyuge: Ampliando horizontes"
+ councillor_spouse_learning.2602.not_root.desc:0 "Aunque mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [SCOPE.sC('student').GetTitledFirstName] sabe un par de cosas sobre [SCOPE.sC('student').Custom('highest_skill_noun')], [SCOPE.sC('councillor').GetTitledFirstName] cree que es hora de que [SCOPE.sC('student').GetSheHe] amplíe sus horizontes.\n\n«Podría adquirir nuevos libros, preparar deberes, darle unas cuantas lecciones. ¿Qué tema beneficiaría más a [SCOPE.sC('student').GetFirstNameNoTooltip]?»"
+ councillor_spouse_learning.2602.root.desc:0 "«Aunque ya sabes un par de cosas sobre [SCOPE.sC('student').Custom('highest_skill_noun')], [student.Custom('ES_ElLa')] [SCOPE.sC('student').GetTitleTierName] de [student.GetPrimaryTitle.GetNameNoTierNoTooltip] debe tener una gran variedad de habilidades», dice mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\n\n«Podría adquirir nuevos libros, preparar deberes, darte unas cuantas lecciones. ¿Qué tema te interesa más?»"
+ councillor_spouse_learning.2602.a:0 "Diplomacia."
+ councillor_spouse_learning.2602.b:0 "Teoría militar."
+ councillor_spouse_learning.2602.c:0 "Economía del señorío."
+ councillor_spouse_learning.2602.d:0 "Gestión de la red de espías."
+ councillor_spouse_learning.2602.e:0 "Teología."
+
+ councillor_spouse_learning.1304.desc:0 "Mi espos[councillor.Custom('ES_OA')] patrocina a [SCOPE.sC('religious_vassal').GetTitledFirstNameNoTooltip]"
+ councillor_spouse_learning.1305.desc:0 "La piedad de mi cónyuge impresiona [religious_head.Custom('ES_AlAla')] [SCOPE.sC('religious_head').GetTitleAsNameNoTooltip]"
+
+
+
+ councillor_spouse_learning.2603.t:1 "Cónyuge: A la altura de la tarea"
+ councillor_spouse_learning.2603.desc:0 "Algunos de mis consejeros creen que el trabajo les pertenece por solo por derecho de sangre o influencia, ¡cuán equivocados están! Espero resultado, pero a menudo me llevo una decepción.\n\nTras un largo día me quejo a [SCOPE.sC('councillor').GetFirstName] cuando [SCOPE.sC('councillor').GetSheHe] me interrumpe. «Déjame hacer algo al respecto, [ROOT.Char.GetWifeHusband] mí[ROOT.Char.Custom('ES_OA')]. Unas cuantas lecciones les agudizarán la mente»."
+ councillor_spouse_learning.2603.a:0 "A [SCOPE.sC('chancellor').GetCouncilTitle|U] [SCOPE.sC('chancellor').GetFirstNameNoTooltip] le vendría bien un tutor."
+ councillor_spouse_learning.2603.b:0 "[SCOPE.sC('marshal').GetCouncilTitle|U] [SCOPE.sC('marshal').GetFirstNameNoTooltip] se beneficiaría con tu ayuda."
+ councillor_spouse_learning.2603.c:0 "Dadle unas lecciones a mi [SCOPE.sC('steward').GetCouncilTitle], [SCOPE.sC('steward').GetFirstNameNoTooltip]."
+ councillor_spouse_learning.2603.d:0 "Tal vez tengáis algún consejo para [SCOPE.sC('spymaster').GetCouncilTitle] [SCOPE.sC('spymaster').GetFirstNameNoTooltip]."
+ councillor_spouse_learning.2603.e:0 "[SCOPE.sC('court_chaplain').GetCouncilTitle] [SCOPE.sC('court_chaplain').GetFirstNameNoTooltip] necesita orientación."
+ councillor_spouse_learning.2603.f:0 "Mejor quédate conmigo…"
+ 

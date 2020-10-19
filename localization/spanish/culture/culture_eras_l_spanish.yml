@@ -1,0 +1,15 @@
+﻿l_spanish:
+ #GROUPS
+ culture_group_military:0 "Militar"
+ culture_group_civic:0 "Civil"
+ culture_group_regional:1 "Cultural y regional"
+ culture_group_any:0 "cualquiera"
+ #ERAS
+ culture_era_tribal:0 "Tribal"
+ culture_era_tribal_desc:0 "La era tribal de una [culture|E] precede al surgimiento de leyes codificadas y gobiernos institucionalizados. Gobernantes con [tribal_government|E] solo pueden utilizar las [innovations|E] de la Era tribal."
+ culture_era_early_medieval:0 "Alta Edad Media"
+ culture_era_early_medieval_desc:0 "La Alta Edad Media ve la aparición de administradores profesionales y una serie de [innovations|E] importantes que permiten a una [culture|E] salir de la oscuridad."
+ culture_era_high_medieval:0 "Plena Edad Media"
+ culture_era_high_medieval_desc:0 "La Plena Edad Media es el momento de grandes avances tecnológicos y administrativos, observando cómo los pueblos se convierten en ciudades y la aparición de la clase burguesa incluso mientras el dominio de la aristocracia es absoluto."
+ culture_era_late_medieval:0 "Baja Edad Media"
+ culture_era_late_medieval_desc:0 "La Baja Edad Media marca el cénit del mundo medieval. Burócratas, artesanos, mercaderes y prestamistas empiezan a introducirse en el poder de las antiguas clases privilegiadas."

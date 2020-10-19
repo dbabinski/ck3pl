@@ -1,0 +1,5 @@
+﻿l_spanish:
+ perk_interaction.0002.t:0 "¡Una reclamación sobre mis tierras!"
+ perk_interaction.0002.same_faith:0 "¡Por algún motivo impensable, los [actor.GetFaith.AltPriestTermPlural] han sancionado la reclamación totalmente infundada de [actor.GetTitledFirstName] sobre el [target.GetName]!"
+ perk_interaction.0002.other_faith:0 "¡Los sacerdotes parlanchines de la fe [actor.GetFaith.GetAdjective] han proclamado públicamente su apoyo a la reclamación totalmente infundada de [actor.GetTitledFirstName] sobre el [target.GetName]!"
+ perk_interaction.0002.a:1 "Ya verá es[actor.Custom('ES_EA')] cuando llegue el momento…"

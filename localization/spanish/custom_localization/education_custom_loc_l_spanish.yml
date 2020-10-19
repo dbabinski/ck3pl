@@ -1,0 +1,75 @@
+﻿l_spanish:
+ martial_good_trait_match_good_outcome:0 "Como [ROOT.Char.GetFirstName] es un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] activ[ROOT.Char.Custom('ES_OA')] y entusiasta, no sorprende que le vaya bien en sus estudios sobre la guerra y el combate."
+ martial_bad_trait_match_good_outcome:0 "Decir que [ROOT.Char.Custom('ES_ElLa')] callad[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetFirstName] no parecía hech[ROOT.Char.Custom('ES_OA')] para una vida de guerras era quedarse corto. Sim embargo, ha superado todas las expectativas."
+ martial_neutral_trait_match_good_outcome:0 "Con la tutela adecuada, hasta [ROOT.Char.GetFirstName], que siempre mostró poca inclinación natural hacia la guerra, puede llegar a comprenderla."
+ education_martial_3_outcome_description:0 "[ROOT.Char.GetFirstName] mostró gran aptitud tanto en tácticas bélicas como en la dirección de ejércitos. Estoy seguro de que llegará a ser un[ROOT.Char.Custom('ES_XA')] gran comandante."
+ education_martial_3_outcome_description_not_commander:0 "[ROOT.Char.GetFirstName] mostró gran aptitud tanto en tácticas bélicas como en la dirección de ejércitos. Es una pena que nunca vaya a dirigir ejércitos."
+ education_martial_4_outcome_description:0 "Es impresionante ver tal habilidad en alguien tan joven. ¡[ROOT.Char.GetFirstName] da muestras de un nivel de conocimiento impropio hasta en comandantes veteranos!"
+ 
+ martial_good_trait_match_bad_outcome:0 "Se creía que la naturaleza enérgica de [ROOT.Char.GetFirstName] era una señal de afinidad con la guerra y el combate, pero puede que solo fuera indisciplina. "
+ martial_bad_trait_match_bad_outcome:1 "[ROOT.Char.GetFirstName] no mostró nunca mucho interés por los asuntos de la guerra, pero siempre esperé que fuera una fase pasajera. Me equivocaba."
+ martial_neutral_trait_match_bad_outcome:1 "Durante mucho tiempo esperé que una buena tutela fuera suficiente para enseñar a [ROOT.Char.GetFirstName] las complejidades de la guerra. No fue el caso."
+ education_martial_1_outcome_description:2 "[ROOT.Char.GetSheHe|U] entiende mínimamente la materia. Al menos sabe cómo sostener una espada y hasta sabe distinguir un infante de un $knight_culture_player_no_tooltip_lowercase$."
+ education_martial_2_outcome_description:1 "[ROOT.Char.GetFirstName|U] ha adquirido un conocimiento básico de la materia. Al menos conoce los fundamentos para dirigir un ejército. Solo espero que el resto le llegue con la experiencia."
+
+ education_martial_prowess_1_outcome_description:1 "\n\nEn lo personal, ha aprovechado poco sus estudios $knight_culture_player_adjective_no_tooltip_lowercase$s, y es bastante torpe en el combate individual."
+ education_martial_prowess_2_outcome_description:1 "\n\nEn lo personal, ha logrado enfrentarse con éxito contra pequeños grupos de campesinos rebeldes, demostrando ser un[ROOT.Char.Custom('ES_XA')] $knight_culture_player_no_tooltip_lowercase$ competente."
+ education_martial_prowess_3_outcome_description:0 "\n\nA nivel personal, ha mostrado saber luchar eficazmente en el combate cuerpo a cuerpo, capaz de empuñar la espada y de convertir su séquito personal en una unidad cohesionada."
+ education_martial_prowess_4_outcome_description:0 "\n\nA nivel personal, ha demostrado ser un[ROOT.Char.Custom('ES_XA')] guerrer[ROOT.Char.Custom('ES_OA')] increíblemente competente, dominando incluso las formas más difíciles de la lucha tradicional [ROOT.Char.GetCulture.GetNameNoTooltip]."
+
+ diplomacy_good_trait_match_good_outcome:0 "Hasta cuando era pequeñ[ROOT.Char.Custom('ES_OA')], [ROOT.Char.GetFirstName] siempre ha tenido facilidad de palabra. No debe sorprender entonces que se haya tomado bien el estudio de relaciones diplomáticas."
+ diplomacy_good_trait_match_bad_outcome:0 "Pese a ser muy hablador[ROOT.Char.Custom('ES_XA')], a [ROOT.Char.GetFirstName] a veces le cuesta llevarse bien con la gente."
+ diplomacy_bad_trait_match_good_outcome:0 "Pese que no suele llevarse bien con otros niños, [ROOT.Char.GetFirstName] ha mostrado una aptitud sorprendente para las maniobras diplomáticas."
+ diplomacy_bad_trait_match_bad_outcome:0 "[ROOT.Char.GetFirstName] raramente pasa mucho tiempo con otros niños, así que puede no sorprender que le cueste aprender cómo influir en los demás."
+ diplomacy_neutral_trait_match_good_outcome:0 "Con la tutela adecuada, incluso un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] como [ROOT.Char.GetFirstName], que mostró poca inclinación natural hacia la influencia diplomática, puede llegar a comprenderla completamente."
+ diplomacy_neutral_trait_match_bad_outcome:0 "Durante mucho tiempo esperé que una buena tutela fuera suficiente para enseñar a [ROOT.Char.GetFirstName] las complejidades de la diplomacia. Pero todos los esfuerzos han sido en vano."
+
+ stewardship_good_trait_match_good_outcome:0 "Administrador[ROOT.Char.Custom('ES_XA')] nat[ROOT.Char.Custom('ES_OA')], a nadie debería sorprender que [ROOT.Char.GetFirstName] haya avanzado mucho en sus estudios sobre la gestión del señorío."
+ stewardship_good_trait_match_bad_outcome:0 "Pese a que siempre pareció buscar autoridad y poder, [ROOT.Char.GetFirstName] no se ha vuelto tan competente como se esperaba en la administración de tierras y gentes."
+ stewardship_bad_trait_match_good_outcome:0 "Pese a interesarle más los rumores sobre la gente del país que sus impuestos y censos, [ROOT.Char.GetFirstName] ha desarrollado aptitud para la administración."
+ stewardship_bad_trait_match_bad_outcome:0 "Puede que sin ser una sorpresa, la obsesión de [ROOT.Char.GetFirstName] con los detalles minuciosos de la vida de la gente no haya sido beneficiosa para su comprensión de la administración de un país entero."
+ stewardship_neutral_trait_match_good_outcome:0 "Con la tutela adecuada, incluso una[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] como [ROOT.Char.GetFirstName], que mostró poca inclinación natural hacia la administración, puede llegar a comprenderla totalmente."
+ stewardship_neutral_trait_match_bad_outcome:0 "Durante mucho tiempo esperé que una buena tutela fuera suficiente para enseñar a [ROOT.Char.GetFirstName] las complejidades de la administración. Pero todos los esfuerzos han sido en vano."
+
+ intrigue_good_trait_match_good_outcome:0 "Siempre curios[ROOT.Char.Custom('ES_OA')] en la infancia, [ROOT.Char.GetFirstName] ha demostrado una y otra vez en el transcurso de sus estudios que tiene una afinidad natural por las planificaciones cuidadosas y más de una pequeña distracción."
+ intrigue_good_trait_match_bad_outcome:0 "Pese a tener bastante experiencia con la mentira cuando era un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')], a [ROOT.Char.GetFirstName] siempre le ha costado aplicar esa clase de creatividad de forma estructurada."
+ intrigue_bad_trait_match_good_outcome:0 "Pese a ser un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] ruidos[ROOT.Char.Custom('ES_OA')] y a veces algo brusc[ROOT.Char.Custom('ES_OA')], [ROOT.Char.GetFirstName] ha estado desarrollando una afición por medios más sutiles para conseguir que las cosas salgan como desea."
+ intrigue_bad_trait_match_bad_outcome:0 "Como [ROOT.Char.GetFirstName] es un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] ruidos[ROOT.Char.Custom('ES_OA')] y direct[ROOT.Char.Custom('ES_OA')], nunca mostró mucho aprecio por asuntos más sutiles."
+ intrigue_neutral_trait_match_good_outcome:0 "Con la tutela adecuada, incluso un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] como [ROOT.Char.GetFirstName], que mostró poca inclinación natural hacia la planificación cuidadosa, puede llegar a entender sus usos."
+ intrigue_neutral_trait_match_bad_outcome:0 "Durante mucho tiempo esperé que una buena tutela fuera suficiente para enseñar a [ROOT.Char.GetFirstName] las sutilezas de la intriga. Pero todos los esfuerzos han sido en vano."
+
+ learning_good_trait_match_good_outcome:0 "[ROOT.Char.GetFirstName], un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] curios[ROOT.Char.Custom('ES_OA')] y ávid[ROOT.Char.Custom('ES_OA')] de conocimiento de toda la vida, siempre mostró una afinidad por la erudición."
+ learning_good_trait_match_bad_outcome:0 "Pese a ser un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] curios[ROOT.Char.Custom('ES_OA')], siempre con ansias de aprender, la atención de [ROOT.Char.GetFirstName] se fue desviando a otras direcciones según crecía."
+ learning_bad_trait_match_good_outcome:0 "Pese a que siempre pareció un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] con poca atención, [ROOT.Char.GetFirstName] ha demostrado que un erudito no se hace solo con concentración."
+ learning_bad_trait_match_bad_outcome:0 "Al haber sido un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] con tan poca atención, no es extraño entender por qué a [ROOT.Char.GetFirstName] le ha costado hacer frente a los estudios."
+ learning_neutral_trait_match_good_outcome:0 "Con la tutela adecuada, incluso un[ROOT.Char.Custom('ES_XA')] niñ[ROOT.Char.Custom('ES_OA')] como [ROOT.Char.GetFirstName], que mostró poca inclinación natural hacia la erudición, puede llegar a comprender cualquier asunto."
+ learning_neutral_trait_match_bad_outcome:0 "Durante mucho tiempo esperé que una buena tutela fuera suficiente para enseñar a [ROOT.Char.GetFirstName] las complejidades de cualquier clase de saber. Pero todos los esfuerzos han sido en vano."
+
+
+
+ education_diplomacy_1_outcome_description:1 "Las prácticas de la cortesía y el honor siempre han supuesto un desafío para [ROOT.Char.Custom('ES_ElElla')]. Pero, al menos, [ROOT.Char.GetFirstName] tiene nociones básicas de etiqueta."
+ education_diplomacy_2_outcome_description:1 "Aunque pocos en la corte quedarán impresionados con su dominio de la etiqueta, [ROOT.Char.GetFirstName] sabe cómo defenderse en compañía educada."
+ education_diplomacy_3_outcome_description:0 "Con una comprensión excelente de todos los asuntos de la etiqueta y una elocuencia a juego, a [ROOT.Char.GetFirstName] le costará poco navegar por la vida cortesana."
+ education_diplomacy_4_outcome_description:0 "¡Con su gran labia, [ROOT.Char.GetFirstName] puede ganarse a condes y reyes por igual! Cuando habla, la corte escucha en un silencio embelesado."
+
+ education_stewardship_1_outcome_description:0 "Se puede considerar una suerte que [ROOT.Char.GetFirstName] haya conseguido dominar el arte de contar monedas, ya que la mayoría de los demás aspectos del trabajo de un administrador se le han escapado."
+ education_stewardship_2_outcome_description:1 "Pocos quedarán impresionados con su dominio de la materia, pero [ROOT.Char.GetFirstName] al menos ha adquirido un sólido conocimiento de los principios de la gestión y los fundamentos de una frugalidad sensata."
+ education_stewardship_3_outcome_description:0 "Mostrando una comprensión completa de los flujos de oro y gentes, [ROOT.Char.GetFirstName] hasta expresa una creatividad notable para tratar con tales asuntos."
+ education_stewardship_4_outcome_description:0 "¡No content[ROOT.Char.Custom('ES_OA')] con comprender el flujo de gentes y riquezas, [ROOT.Char.GetFirstName] parece capaz de predecirlo por puro instinto! Y siempre encuentra nuevos modos de beneficiarse de él."
+
+ education_intrigue_1_outcome_description:0 "Con su falta de sutileza y paciencia, a [ROOT.Char.GetFirstName] le cuesta ejecutar planes a largo plazo… pero por lo menos intenta hacerlos."
+ education_intrigue_2_outcome_description:1 "Aunque [ROOT.Char.GetFirstName] ha demostrado ser más que capaz de urdir pequeñas conjuras, pocos dirían que sean refinadas, si bien el refinamiento no siempre es necesario."
+ education_intrigue_3_outcome_description:0 "Ahora [ROOT.Char.GetFirstName] sabe muchos modos de conseguir lo que quiere. Y más importante, es muy consciente de las implicaciones políticas de esos deseos."
+ education_intrigue_4_outcome_description:0 "Pero ahora cuesta decirlo. Todo lo que se le encarga es hecho por otros antes de que llegue a sus manos y ya no cuenta esas mentiras que solía decir en su infancia. Puede que, en el fondo, no sea tan inteligente como parecía."
+
+ education_learning_1_outcome_description:0 "Parece que la búsqueda del conocimiento nunca arraigó en su mente y ahora pasar tiempo entre libros y tomos le parece más una carga que una alegría."
+ education_learning_2_outcome_description:0 "No muy estudios[ROOT.Char.Custom('ES_OA')], al menos ha conseguido memorizar ciertas citas de los clásicos. Tal vez no escriba nunca grandes teoremas, pero podrá leer uno o dos."
+ education_learning_3_outcome_description:0 "Un[ROOT.Char.Custom('ES_XA')] estudiante ávid[ROOT.Char.Custom('ES_OA')], [ROOT.Char.GetFirstName] se ha convertido en un[ROOT.Char.Custom('ES_XA')] proveedor[ROOT.Char.Custom('ES_XA')] de conocimiento y ha demostrado ser capaz de estructurar argumentos avanzados teóricos y teológicos."
+ education_learning_4_outcome_description:0 "Su comprensión de las obras filosóficas y teóricas es impresionante y a menudo entabla debates con sus antiguos maestros. Incluso a una edad tan temprana ya cita fragmentos que respalden nuevas idas y teorías."
+
+
+ ChildhoodPersonalityTrait_charming:0 "[GetTrait('charming').GetName( ROOT.Char )]"
+ ChildhoodPersonalityTrait_rowdy:0 "[GetTrait('rowdy').GetName( ROOT.Char )]"
+ ChildhoodPersonalityTrait_bossy:0 "[GetTrait('bossy').GetName( ROOT.Char )]"
+ ChildhoodPersonalityTrait_curious:0 "[GetTrait('curious').GetName( ROOT.Char )]"
+ ChildhoodPersonalityTrait_pensive:0 "[GetTrait('pensive').GetName( ROOT.Char )]"

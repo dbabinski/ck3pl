@@ -1,0 +1,18 @@
+﻿l_spanish:
+
+ HAS_INNOVATION_THIRD:0 "La cultura [CULTURE.GetName] tiene la [INNOVATION.GetName] $INNOVATION_TYPE|V$"
+ NOT_HAS_INNOVATION_THIRD:0 "La cultura [CULTURE.GetName] no tiene la [INNOVATION.GetName]"
+
+ MUST_BE_UNLOCKED_BY_DECISION:0 "Debe desbloquearse por decisión"
+
+ HAS_CULTURAL_ERA_OR_LATER:0 "La cultura [CULTURE.GetName] ha alcanzado la era $ERA$"
+
+ DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] tiene deriva de iure hacia [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] #bold no#! tiene deriva de iure hacia [TARGET_TITLE.GetName]"
+ DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "Deriva de iure hacia [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "#bold No#! deriva de iure hacia [TARGET_TITLE.GetName]"
+
+
+ DE_JURE_DRIFT_PROGRESS_TRIGGER:0 "El progreso de la deriva de iure de [TITLE.GetName] hacia [TARGET_TITLE.GetName] es $OPERATOR$ $VALUE|V0$"
+
+ YOU_CAN_ONLY_CHANGE_CULTURE_ONCE:0 "No puedes cambiar de cultura más de una vez en la vida"

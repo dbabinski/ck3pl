@@ -1,0 +1,39 @@
+﻿l_spanish:
+ signature_weapon_sword:0 "la espada"
+ signature_weapon_sword_draw:0 "desenvaina"
+ signature_weapon_sword_draws:0 "levantamientos"
+
+ signature_weapon_mace:0 "la maza"
+ signature_weapon_mace_lift:0 "sube"
+ signature_weapon_mace_lifts:0 "levantamientos"
+
+ signature_weapon_axe:0 "el hacha"
+ signature_weapon_axe_heft:0 "levanta"
+ signature_weapon_axe_hefts:0 "levantamientos"
+
+ signature_weapon_hammer:0 "el martillo"
+ signature_weapon_hammer_raise:0 "alza"
+ signature_weapon_hammer_raises:0 "levantamientos"
+
+ signature_weapon_spear:0 "la lanza"
+ signature_weapon_spear_couch:0 "coloca"
+ signature_weapon_spear_couches:0 "colocaciones"
+
+ signature_weapon_dagger:0 "la daga"
+ signature_weapon_dagger_brandish:0 "blande"
+ signature_weapon_dagger_brandishes:0 "alardes"
+
+ signature_weapon_a_quick_slash:0 "un tajo rápido"
+ signature_weapon_a_mighty_heave:0 "un poderoso golpe"
+ signature_weapon_a_fast_thrust:0 "una estocada rápida"
+
+ signature_weapon_slash:0 "hace un corte profundo en"
+ signature_weapon_crush:0 "aplasta los huesos de"
+ signature_weapon_pierce:0 "penetra profundamente en"
+
+ signature_weapon_slash_present:0 "hace un corte profundo en"
+ signature_weapon_crush_present:0 "aplasta los huesos de"
+ signature_weapon_pierce_present:0 "penetra profundamente en"
+
+ article_a:0 "una"
+ article_an:0 "un"

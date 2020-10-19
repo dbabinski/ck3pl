@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ #Created for 'historical_commander_trait_events' but feel free to use or expand upon these for anything you need.
+ reaction_custom_amazed:0 "惊讶的"
+ reaction_custom_awed:0 "害怕的"
+ reaction_custom_astonished:0 "震惊的"
+ reaction_custom_aghast:0 "吓呆的"
+ reaction_custom_horrified:0 "受惊的"
+ reaction_custom_thrilled:0 "幸奋的"

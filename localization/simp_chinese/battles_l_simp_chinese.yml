@@ -1,0 +1,55 @@
+﻿l_simp_chinese:
+ # Knight wounded/slain event strings for use in battle events. 
+ knight_wounded_no_enemy_friendly:0 "我方$knight_culture_player_no_tooltip_lowercase$[CHARACTER.GetShortUINameNoTooltip]被一名敌军士兵击伤了！"
+ knight_wounded_no_enemy_enemy:0 "我方一位英勇的士兵设法击伤了敌方[CHARACTER.Custom('KnightCultureNoTooltipLowercase')][CHARACTER.GetShortUINameNoTooltip]！"
+ knight_wounded_by_enemy_friendly:0 "我方$knight_culture_player_no_tooltip_lowercase$[CHARACTER.GetShortUINameNoTooltip]被[TARGET_CHARACTER.GetShortUINameNoTooltip]击伤了！"
+ knight_wounded_by_enemy_enemy:0 "我方$knight_culture_player_no_tooltip_lowercase$[TARGET_CHARACTER.GetShortUINameNoTooltip]击伤了[CHARACTER.GetShortUINameNoTooltip]！"
+ knight_maimed_no_enemy_friendly:0 "我方$knight_culture_player_no_tooltip_lowercase$[CHARACTER.GetShortUINameNoTooltip]被一名敌军士兵打成残废！"
+ knight_maimed_no_enemy_enemy:0 "我方一位英勇的士兵将[CHARACTER.Custom('KnightCultureNoTooltipLowercase')][CHARACTER.GetShortUINameNoTooltip]打成残废！"
+ knight_maimed_by_enemy_friendly:0 "我方$knight_culture_player_no_tooltip_lowercase$[CHARACTER.GetShortUINameNoTooltip]被[TARGET_CHARACTER.GetShortUINameNoTooltip]打成残废！"
+ knight_maimed_by_enemy_enemy:0 "我方$knight_culture_player_no_tooltip_lowercase$[TARGET_CHARACTER.GetShortUINameNoTooltip]将[CHARACTER.GetShortUINameNoTooltip]打成残废！"
+ knight_killed_no_enemy_friendly:0 "我方$knight_culture_player_no_tooltip_lowercase$[CHARACTER.GetShortUINameNoTooltip]被一名敌军士兵击杀！"
+ knight_killed_no_enemy_enemy:0 "我方一位英勇的士兵击杀了[CHARACTER.Custom('KnightCultureNoTooltipLowercase')][CHARACTER.GetShortUINameNoTooltip]！"
+ knight_killed_by_enemy_friendly:0 "我方$knight_culture_player_no_tooltip_lowercase$[CHARACTER.GetShortUINameNoTooltip]被[TARGET_CHARACTER.GetShortUINameNoTooltip]击杀！"
+ knight_killed_by_enemy_enemy:0 "我方$knight_culture_player_no_tooltip_lowercase$[TARGET_CHARACTER.GetShortUINameNoTooltip]击杀了[CHARACTER.GetShortUINameNoTooltip]！"
+ 
+ berserker_rage_killed_enemy_enemy:0 "我方$knight_culture_player_no_tooltip_lowercase$[TARGET_CHARACTER.GetShortUINameNoTooltip]被[GetTrait('berserker').GetName( GetNullCharacter )][CHARACTER.GetShortUINameNoTooltip]扯下了[TARGET_CHARACTER.GetHerHis]的头颅！"
+ berserker_rage_killed_enemy_friendly:0 "我方$knight_culture_player_no_tooltip_lowercase$[CHARACTER.GetShortUINameNoTooltip]扯下了[TARGET_CHARACTER.GetShortUINameNoTooltip]的头颅，成为一位[GetTrait('berserker').GetName( GetNullCharacter )]！"
+ berserker_rage_killed_enemy_no_trait_enemy:0 "我方$knight_culture_player_no_tooltip_lowercase$[TARGET_CHARACTER.GetShortUINameNoTooltip]被[GetTrait('berserker').GetName( GetNullCharacter )][CHARACTER.GetShortUINameNoTooltip]扯下了[TARGET_CHARACTER.GetHerHis]的头颅！"
+ berserker_rage_killed_enemy_no_trait_friendly:0 "我方$knight_culture_player_no_tooltip_lowercase$[CHARACTER.GetShortUINameNoTooltip]将[TARGET_CHARACTER.GetShortUINameNoTooltip]的头颅扯了下来！"
+ berserker_rage_no_enemy_enemy:0 "敌军$knight_culture_player_no_tooltip_lowercase$[CHARACTER.GetShortUINameNoTooltip]在我军阵中横冲直撞，成为一位[GetTrait('berserker').GetName( GetNullCharacter )]！"
+ berserker_rage_no_enemy_friendly:0 "我方$knight_culture_player_no_tooltip_lowercase$[CHARACTER.GetShortUINameNoTooltip]在敌军阵中横冲直撞，成为一位[GetTrait('berserker').GetName( GetNullCharacter )]！"
+
+ # Commander injured/killed event string for use in battle events.
+ commander_wounded_no_enemy_friendly_player:0 "你在指挥部队作战时被一名敌军士兵击伤！"
+ commander_wounded_no_enemy_friendly:0 "将领[CHARACTER.GetUINameNoTooltip]在指挥[CHARACTER.GetHerHis]的部队作战时被击伤！"
+ commander_wounded_no_enemy_enemy:0 "我们一位英勇的士兵在战斗中击伤了敌方将领[CHARACTER.GetUINameNoTooltip]！"
+
+ commander_wounded_by_enemy_friendly_player:0 "你在指挥部队作战时被[TARGET_CHARACTER.GetUINameNoTooltip]击伤！"
+ commander_wounded_by_enemy_friendly:0 "将领[CHARACTER.GetUINameNoTooltip]在指挥[CHARACTER.GetHerHis]的部队作战时被[TARGET_CHARACTER.GetUINameNoTooltip]击伤！"
+ commander_wounded_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip]在战斗中击伤了敌方将领，[CHARACTER.GetUINameNoTooltip]！"
+
+ commander_maimed_no_enemy_friendly_player:0 "我在指挥部队作战时被一名敌方士兵打成残废！"
+ commander_maimed_no_enemy_friendly:0 "将领[CHARACTER.GetUINameNoTooltip]在指挥[CHARACTER.GetHerHis]的部队作战时被打成残废！"
+ commander_maimed_no_enemy_enemy:0 "我们一位英勇的士兵在战斗中将敌方将领[CHARACTER.GetUINameNoTooltip]打成残废！"
+
+ commander_maimed_by_enemy_friendly_player:0 "你在指挥部队作战时被[TARGET_CHARACTER.GetUINameNoTooltip]打成残废！"
+ commander_maimed_by_enemy_friendly:0 "将领[CHARACTER.GetUINameNoTooltip]在战斗中被[TARGET_CHARACTER.GetUINameNoTooltip]打成残废！"
+ commander_maimed_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip]在战斗中将敌方将领[CHARACTER.GetUINameNoTooltip]打成残废！"
+
+ commander_killed_no_enemy_friendly_player:0 "我在指挥部队作战时被一名敌方士兵击杀！"
+ commander_killed_no_enemy_friendly:0 "将领[CHARACTER.GetUINameNoTooltip]在指挥[CHARACTER.GetHerHis]的部队作战时被击杀！"
+ commander_killed_no_enemy_enemy:0 "我们一位英勇的士兵击杀了敌方将领[CHARACTER.GetUINameNoTooltip]，让敌军陷入了混乱！"
+
+ commander_killed_by_enemy_friendly_player:0 "你在指挥部队作战时被[TARGET_CHARACTER.GetUINameNoTooltip]击杀！"
+ commander_killed_by_enemy_friendly:0 "将领[CHARACTER.GetUINameNoTooltip]被[TARGET_CHARACTER.GetUINameNoTooltip]击杀！"
+ commander_killed_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip]击杀了敌方将领[CHARACTER.GetUINameNoTooltip]，让敌军陷入了混乱！"
+
+ # Commander injured/killed event strings for use in messages/toasts.
+ commander_wounded_no_enemy_interface_friendly_player:0 "你在指挥部队作战时被一名敌军士兵击伤！"
+ commander_wounded_by_enemy_interface_friendly_player:0 "你在指挥部队作战时被[enemy_knight.GetUINameNoTooltip]击伤！"
+ commander_maimed_no_enemy_interface_friendly_player:0 "你在指挥部队作战时被一名敌方士兵打成残废！"
+ commander_maimed_by_enemy_interface_friendly_player:0 "你在指挥部队作战时被[enemy_knight.GetUINameNoTooltip]打成残废！"
+ commander_killed_no_enemy_interface_friendly:0 "[ROOT.Char.GetUINameNoTooltip]在指挥部队作战时被一名敌方士兵击杀！"
+ commander_killed_by_enemy_interface_friendly:0 "[ROOT.Char.GetUINameNoTooltip]在指挥部队作战时被[enemy_knight.GetUINameNoTooltip]击杀！"
+

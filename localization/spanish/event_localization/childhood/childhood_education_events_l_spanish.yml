@@ -1,0 +1,41 @@
+﻿l_spanish:
+ childhood_education.0004.t:0 "La inconstancia de la juventud"
+ childhood_education.0004.opening:0 "Mi pupil[ward.Custom('ES_OA')], [SCOPE.sCharacter('ward').GetTitledFirstName], ha cambiado su enfoque de estudios.\n\n"
+ childhood_education.0004.desc1:0 "¡Pensar que [SCOPE.sCharacter('ward').GetSheHe] ahora aspira a ahondar en el arte de [SCOPE.sCharacter('ward').Custom('education_focus_child')], un campo de estudio en el que destaco… ¡Me conmueve!"
+ childhood_education.0004.desc2:0 "¡Pensar que [SCOPE.sCharacter('ward').GetSheHe] abandonaría nuestro interés común por el arte de [ROOT.Char.Custom('education_focus')]!"
+ childhood_education.0004.desc_fallback:0 "[SCOPE.sCharacter('ward').GetSheHe|U] ahora busca el conocimiento en el arte de [SCOPE.sCharacter('ward').Custom('education_focus_child')]."
+ childhood_education.0004.a:0 "¡[SCOPE.sCharacter('ward').GetTitledFirstNameNoTooltip] ahora estudia [SCOPE.sCharacter('ward').Custom('education_focus_child')]!"
+ childhood_education.0004.b:0 "[SCOPE.sCharacter('ward').GetTitledFirstNameNoTooltip] ahora estudia [SCOPE.sCharacter('ward').Custom('education_focus_child')]…"
+
+ childhood_education.1011.t:0 "Soy quien soy"
+ childhood_education.1011.desc:0 "[SCOPE.sC('guardian').GetTitledFirstName] me ha enseñado tanto sobre las tradiciones de su… #EMP nuestro#! pueblo, que no solo profeso la fe [SCOPE.sC('guardian').GetFaith.GetAdjective], sino que me veo como todo un[ROOT.Char.Custom('ES_XA')] [SCOPE.sC('guardian').GetCulture.GetName]."
+ childhood_education.1011.a:0 "Es el único modo del que quiero vivir."
+
+ childhood_education.1012.t:0 "Un día bendito"
+ childhood_education.1012.desc:0 "Con su educación en curso en la fe y tradiciones de mi pueblo, [SCOPE.sC('ward').GetTitledFirstName] me ha dicho que se siente como un[ward.Custom('ES_XA')] buen[ward.Custom('ES_OA')], [SCOPE.sC('guardian').GetCulture.GetName] [SCOPE.sC('guardian').GetFaith.GetAdherentName]."
+ childhood_education.1012.a:0 "¡Al fin ve la luz!"
+
+ child_culture_and_faith_converted.parent.message:1 "Las creencias y la cultura de tu [ward.Custom('GetDaughterSon')], [ward.GetTitledFirstNamePossessive], han cambiado bajo la tutela de [guardian.GetTitledFirstName]"
+
+ childhood_education.1021.t:0 "En la fe, la verdad"
+ childhood_education.1021.desc:0 "La tutela de [SCOPE.sC('guardian').GetTitledFirstName] me ha enseñado mucho y creo entender la verdadera naturaleza del mundo.\n\n¿Cómo pude dudar de que [SCOPE.sC('guardian').GetFaith.GetName] tenía todas las repuestas?"
+ childhood_education.1021.a:0 "He encontrado mi auténtica fe."
+
+ childhood_education.1022.t:0 "En la fe, la verdad"
+ childhood_education.1022.desc:0 "Tras todas mis lecciones y la sabiduría compartida, mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward'))], [SCOPE.sC('ward').GetTitledFirstName], ha abrazado finalmente la fe verdadera.\n\nSiempre supe que un día sería un[ward.Custom('ES_XA')] buen[ward.Custom('ES_XA')] [ROOT.Char.GetFaith.GetAdherentName]."
+ childhood_education.1022.a:1 "[ROOT.Char.GetFaith.KnowledgeGodName] guio mi mano."
+
+ child_faith_converted.parent.message:1 "Las creencias de tu [ward.Custom('GetDaughterSon')], [ward.GetTitledFirstNamePossessive], han cambiado bajo la tutela de [guardian.GetTitledFirstName]"
+
+ childhood_education.1031.t:0 "Naturaleza y educación"
+ childhood_education.1031.desc:0 "Puede que haya nacido siendo [SCOPE.sC('ward').GetCulture.GetName], pero no puedo negar que ya no sé qué significa eso. Tras la tutela de [SCOPE.sC('guardian').GetTitledFirstName], me siento [SCOPE.sC('guardian').GetCulture.GetName] de los pies a la cabeza."
+ childhood_education.1031.a:0 "Soy quien soy."
+
+ childhood_education.1032.t:0 "Naturaleza y educación"
+ childhood_education.1032.desc:0 "¡Tras mi larga tutela [ward.Custom('ES_DelDela')] joven [SCOPE.sC('ward').GetTitledFirstName], me alegró sobremanera que me dijera que se considera [SCOPE.sC('guardian').GetCulture.GetName]!"
+ childhood_education.1032.a:0 "¡Y lo es, de hecho!"
+
+ child_culture_converted.parent.message:1 "La cultura de tu [ward.Custom('GetDaughterSon')], [ward.GetTitledFirstNamePossessive], ha cambiado bajo la tutela de [guardian.GetTitledFirstName]"
+
+ childhood_education.9004.child_message:0 "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )] de [guardian.GetTitledFirstNameNoTooltip]"
+ childhood_education.9004.guardian_message:1 "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]"

@@ -1,0 +1,15 @@
+﻿l_spanish:
+ #Become Greatest of Khans
+ become_greatest_of_khans_decision:0 "Convertirse en el mayor de los kanes"
+ become_greatest_of_khans_decision_desc:0 "#F Estoy listo para convocar a una asamblea a todos los líderes de clan de todo mi extenso señorío. Me proclamarán Kan de Kanes, [ROOT.Char.GetLadyLord|U] de todo bajo el cielo.\nDesde ahí, conquistaremos.#!"
+ become_greatest_of_khans_decision_tooltip:0 "Forma el Imperio mongol y conviértete en el Gengis Kan, el gobernante universal"
+ become_greatest_of_khans_decision_confirm:0 "Convoca el Gran kurultai"
+ become_greatest_of_khans_decision_gain_mongol_empire:1 "Mi señorío se convierte en el [mongol_empire|E]"
+ become_greatest_of_khans_decision_enable_mongol_invasion_cb:1 "Accedo al [mongol_invasion_casus_belli|E]"
+ GREATEST_OF_KHANS_TITLE_REQUIREMENT:1 "Debo tener rango de [king|E] o [emperor|E]"
+
+ #Establish Bactrian Supremacy
+ establish_bactrian_supremacy_decision:0 "Impón la supremacía de Bactria"
+ establish_bactrian_supremacy_decision_desc:0 "#F Durante generaciones los reyes de Bactria han controlado la encrucijada de las civilizaciones. Es hora de asumir su legado y difundir de caravasar a oasis el mensaje de que aquí, bajo las cuatro esquinas del cielo, gobernamos nosotros.#!"
+ establish_bactrian_supremacy_decision_tooltip:0 "Muestra tu dominación sobre las rutas comerciales que conectan este y oeste, norte y sur"
+ establish_bactrian_supremacy_decision_confirm:0 "¡Reclama las tierras de antaño!"

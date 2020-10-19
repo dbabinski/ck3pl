@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ perk_interaction.0002.t:0 "对我领地的宣称！"
+ perk_interaction.0002.same_faith:0 "出于某种不可思议的原因，[actor.GetFaith.AltPriestTermPlural]认可了[actor.GetTitledFirstNamePossessive]完全不知来源的对[target.GetName]的宣称！"
+ perk_interaction.0002.other_faith:0 "[actor.GetFaith.GetAdjective]的骗子祭司公开宣布支持[actor.GetTitledFirstNamePossessive]对[target.GetName]毫无根据的宣称。"
+ perk_interaction.0002.a:0 "到时候我会给[actor.GetHerHim]点颜色瞧瞧……"

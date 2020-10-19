@@ -1,0 +1,44 @@
+﻿l_spanish:
+ #GetSmallFood
+ #GetSmallFoodIndef
+ food_word_apple:0 "manzana"
+ food_word_apple_indef:0 "una manzana"
+ food_word_biscuit:0 "galleta"
+ food_word_biscuit_indef:0 "una galleta"
+ #GetClothingArticle
+ clothing_word_shirt:0 "camisa"
+ clothing_word_trousers:0 "pantalón"
+ clothing_word_blouse:0 "blusa"
+ clothing_word_dress:0 "vestido"
+ #GetFoodDetail
+ food_detail_cilantro:0 "cilantro"
+ food_detail_lemon:0 "limón"
+ food_detail_almond:0 "almendra"
+ #GetExpensiveMeal
+ expensive_food_roast_swan:0 "cisne asado"
+ expensive_food_veal_cutlets:0 "chuletas de cordero"
+ expensive_food_fresh_quail:0 "codorniz fresca"
+ expensive_food_baked_truffles:0 "trufas al horno"
+ expensive_food_spiced_breads:0 "panes especiados"
+ expensive_food_mustard_rolls:0 "panecillos de mostaza"
+ #GetExpensiveMealAlt
+ expensive_food_fine_cheeses:0 "buenos quesos"
+ expensive_food_almond_eggs:0 "huevos de almendra"
+ expensive_food_sturgeon_caviar:0 "caviar de esturión"
+ #GetExpensiveDessert
+ expensive_dessert_saffron_cake:0 "pasteles al azafrán"
+ expensive_dessert_candied_figs:0 "higos escarchados"
+ expensive_dessert_pomegranate_cake:0 "pasteles de granada"
+ expensive_dessert_entremets:0 "postres"
+ expensive_dessert_quince_tarts:0 "pasteles de membrillo"
+ #GetExpensiveDrink
+ expensive_drink_fancy_champagne:0 "champán caro"
+ expensive_drink_foreign_liqueurs:0 "licores extranjeros"
+ expensive_drink_spiced_wine:0 "vinos especiales"
+ expensive_drink_premium_tea:0 "tés de calidad superior"
+ expensive_drink_violet_sharbah:0 "sorbete de violeta"
+ expensive_drink_aribica_coffee:1 "café arábigo"
+ #GetShockedExpression
+ shocked_expression_shocked:0 "espantado"
+ shocked_expression_appalled:0 "consternado"
+

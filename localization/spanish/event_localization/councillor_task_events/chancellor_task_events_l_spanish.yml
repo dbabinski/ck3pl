@@ -1,0 +1,87 @@
+﻿l_spanish:
+ chancellor_task.1001.t:0 "Un nuevo pretendiente"
+ chancellor_task.1001.desc:0 "Nunca vi semejante estupidez…\n\n¡En su estúpido intento por mejorar las relaciones con mis vecinos, mi [SCOPE.sC('councillor').GetCouncilTitle] [SCOPE.sC('councillor').GetTitledFirstName] fue tan inútil como para reconocer los derechos de [SCOPE.sC('neighboring_ruler').GetTitledFirstName] sobre el [SCOPE.sTitle('target_county').GetName]!"
+ chancellor_task.1001.a:0 "¡Tienes que hacerme ganar amigos, no enemigos!"
+
+ chancellor_task.1002.t:0 "El fin de una paz"
+ chancellor_task.1002.desc:0 "¡Al intentar mejorar mi reputación, la incompetencia de [SCOPE.sC('councillor').GetTitledFirstName] le hizo aceptar un tratado que #EMP anula#! partes de lo que ya pacté con [SCOPE.sC('target').GetName]!\n\nY desde su punto de vista, [SCOPE.sC('target').GetTitleTierName] puede declararme la guerra en cuanto desee."
+ chancellor_task.1002.a:0 "¡¿Por qué aceptaste esto, [SCOPE.sC('councillor').GetFirstNameNoTooltip]?!"
+
+ chancellor_task.1003.opening:1 "[neighbor.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ chancellor_task.1003.desc:0 "Me he estado escribiendo con vuestr[councillor.Custom('ES_OA')] [SCOPE.sC('councillor').GetCouncilTitle], [SCOPE.sC('councillor').GetTitledFirstName], y ha tenido una actuación diplomática vergonzosa. ¡No sois quien yo pensaba!"
+ chancellor_task.1003.a:0 "Debe de ser un horrible malentendido…"
+
+ chancellor_task.1003.message:0 "[councillor.GetCouncilTitle] disgusta a [neighbor.GetTitledFirstName]"
+
+ chancellor_task.1102.t:0 "Diplomacia hábil"
+ chancellor_task.1102.desc:0 "¡Mi [SCOPE.sC('councillor').GetCouncilTitle], [SCOPE.sC('councillor').GetTitledFirstName], trabajó duro para convencer a nuestros vecinos y vasallos de que el tratado de paz al que llegué con [SCOPE.sC('target').GetName] era incorrecto, ilegal e injusto para mí!\n\nVuelvo a ser libre para declararle la guerra como me plazca."
+ chancellor_task.1102.a:0 "¡Un trabajo fantástico, [councillor.GetFirstNameNoTooltip]!"
+
+ chancellor_task.1103.opening:0 "[SCOPE.sC('neighbor').Custom2('AppropriateGreetingPositive', ROOT.Char)]"
+ chancellor_task.1103.desc:0 "Me he estado escribiendo con vuestr[councillor.Custom('ES_OA')] [SCOPE.sC('councillor').GetCouncilTitle], [SCOPE.sC('councillor').GetTitledFirstName], y debo decir que os veo con una nueva luz. Puede que un día me enorgullezca de decir que tenéis mi amistad."
+ chancellor_task.1103.a:0 "¡Hoy tu elocuencia ha brillado, [SCOPE.sC('councillor').GetFirstNameNoTooltip]!"
+
+ chancellor_task.1103.message:0 "[councillor.GetCouncilTitle] impresiona a [neighbor.GetTitledFirstName]"
+
+ chancellor_task.2001.t:0 "Resistencia local"
+ chancellor_task.2001.desc:0 "Apreciad[ROOT.Char.Custom('ES_OA')] [SCOPE.sC('councillor').Custom2('RelationToMe', ROOT.Char)],\nAunque mis intentos por reorganizar el [SCOPE.sTitle('county').GetName] progresan a buen ritmo, no todo el mundo está convencido de los beneficios.\nParece que ofendí a muchos alcaldes y jefes de aldeas. De hecho, a todos."
+ chancellor_task.2001.a:0 "¿Qué has hecho, [SCOPE.sC('councillor').GetFirstNameNoTooltip]…?"
+ chancellor_task.2001.notification:0 "La incompetencia de mi [SCOPE.sC('councillor').GetCouncilTitle] hizo que el pueblo de [SCOPE.sTitle('county').GetName] me perdiera el respeto"
+
+ chancellor_task.2002.desc:0 "Apreciad[ROOT.Char.Custom('ES_OA')] [SCOPE.sC('councillor').Custom2('RelationToMe', ROOT.Char)]…\n\nParece que cometí algunos errores de juicio. Las reformas que implanté en el [SCOPE.sTitle('county').GetName] iban a reforzar vuestro control de la región, pero por el contrario, el pueblo apenas sabe quién es su [ROOT.Char.GetTitleTierName]…"
+ chancellor_task.2002.a:0 "¡¿Lo has empeorado #EMP más aún?!#!"
+ chancellor_task.2002.notification:0 "Mi [SCOPE.sC('councillor').GetCouncilTitle] pierde el control en el [SCOPE.sTitle('county').GetName]!"
+
+ chancellor_task.2003.t:0 "Una decepción"
+ chancellor_task.2003.desc:0 "Saludos, [SCOPE.sC('baron').Custom2('RelationToMe', ROOT.Char)],\n¡Debo quejarme del comportamiento de vuestr[councillor.Custom('ES_OA')] [SCOPE.sC('councillor').GetCouncilTitle], [SCOPE.sC('councillor').GetTitledFirstName]!\n¡Se presentó en el [SCOPE.sTitle('county').GetName] y empezó a cambiar cosas a capricho, sin respetar nuestras tradiciones ni antiguas costumbres!"
+ chancellor_task.2003.a:0 "¿Puedes tener algo más de delicadeza, [SCOPE.sC('councillor').GetFirstNameNoTooltip]?"
+ chancellor_task.2003.notification:0 "¡Mi [SCOPE.sC('councillor').GetCouncilTitle] incompetente irritó a uno de mis vasallos!"
+
+ chancellor_task_2001.message:0 "$baron_plural_upper_case$ resiste a la integración"
+
+ chancellor_task_2002.message:1 "Resistencia [resisting_culture.GetNameNoTooltip] a la integración"
+
+ chancellor_task_2101.message:0 "$baron_plural_upper_case$ apoya la integración"
+
+ chancellor_task_2102.message:1 "Apoyo [supporting_culture.GetNameNoTooltip] a la integración"
+ chancellor_task_every_county_of_culture_in_title:0 "Todo condado [supporting_culture.GetAdjective] de [title.GetNameNoTier]"
+
+ chancellor_task.2103.opening:0 "[SCOPE.sC('councillor').Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.2103.desc:0 "Nuestros intentos de integración en el [title.GetName] van muy bien. De hecho, podemos intentar implantar prácticas tributarias del [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] a escala limitada."
+ chancellor_task.2103.a:0 "Perfecto. ¡Que así sea!"
+ chancellor_task.2103.b:0 "¿No podemos aprender más de sus costumbres?"
+ chancellor_task.2103.c:0 "No, estas cosas llevan tiempo, y debemos darle tanto como se necesite."
+
+ chancellor_task.3001.opening:0 "[SCOPE.sC('vassal').Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.3001.desc:0 "Llevo un tiempo alojando a vuestr[councillor.Custom('ES_OA')] [SCOPE.sC('councillor').GetCouncilTitle], [SCOPE.sC('councillor').GetTitledFirstName]. ¡Me repugna el modo en que abusa de mi hospitalidad mientras me incita poco menos que a postrarme servilmente ante vos!\n\n¿Qué [ROOT.Char.GetLadyLord] enviaría a un representante tan horrorso?"
+ chancellor_task.3001.a:0 "¡[SCOPE.sC('councillor').GetFirstNameNoTooltip]! ¡¿Qué has hecho?!"
+
+ chancellor_task.3002.opening:0 "[SCOPE.sC('councillor').Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.3002.desc:0 "Al parecer, en mis tratos con [SCOPE.sC('vassal').GetTitledFirstName], puede que por accidente haya… prometido ciertas exenciones de sus obligaciones…\n\nHe intentado arreglarlo, pero parece que ya no hay modo de salir…"
+ chancellor_task.3002.a:0 "¡Imbécil!"
+ chancellor_task.3002.c:0 "No, aún puedo arreglarlo."
+ chancellor_task.3002.d:0 "Creo que no."
+
+ chancellor_task.3101.opening:0 "[active_councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.3101.desc:0 "Con el conflicto en curso entre [SCOPE.sC('attacker_vassal').GetTitledFirstName] y [SCOPE.sC('defender_vassal').GetTitledFirstName], he estado trabajando incansablemente para llegar a la clave de su disputa. Y con los apoyos correctos, creo que se puede llegar a un acuerdo."
+ chancellor_task.3101.a:0 "Haz que dejen de luchar, cueste lo que cueste."
+ chancellor_task.3101.b:0 "¡Soy su [ROOT.Char.GetTitleTierName] y harán lo que les diga!"
+ chancellor_task.3101.c:0 "Que sigan resolviendo sus diferencias."
+ chancellor_task.3101.c.tt:0 "Continúa la guerra entre [SCOPE.sC('attacker_vassal').GetFirstNameNoTooltip] y [SCOPE.sC('defender_vassal').GetFirstNameNoTooltip]"
+
+ chancellor_task.3102.desc:0 "Descubrí que las obligaciones del pacto que heredó [SCOPE.sC('vassal').GetTitledFirstName] le obligan a más de lo habéis recaudado."
+ chancellor_task.3102.a:0 "¡Es hora de arreglar este error!"
+ chancellor_task.3102.c:0 "Seguro que [SCOPE.sC('vassal').GetFirstNameNoTooltip] agradecerá que lo deje pasar…"
+
+ chancellor_task.3003.t:0 "Pérdida de autoridad"
+ chancellor_task.3003.desc:0 "Se ve que nada de lo que hace mi [SCOPE.sC('councillor').GetCouncilTitle] -¡si lo hace!- es bastante.\n\nMientras se supone que [SCOPE.sC('councillor').GetTitledFirstName] vigila, mis vasallos actúan como les parece mejor y casi nunca buscan mi aprobación para ningún asunto."
+ chancellor_task.3003.a:0 "Es como si el poder se me escapase las manos."
+ chancellor_task.3003.notification:0 "[SCOPE.sC('councillor').GetCouncilTitle] no logra dirigir a los vasallos"
+
+ chancellor_task.3103.desc:0 "Llevo semanas alojando a vuestro [SCOPE.sC('councillor').GetCouncilTitle], [SCOPE.sC('councillor').GetTitledFirstName] y me ha ayudado a ver la verdadera magnificencia del país bajo vuestro reinado.\n¡No puedo sino sentirme honrado de serviros como vasallo!"
+ chancellor_task.3103.a:0 "Es una bendición tener unos servidores tan agradecidos."
+
+ chancellor_task.3104.desc:0 "He descubierto tratados antiguos relativos al [SCOPE.sTitle('primary_title').GetName]. Llegado el caso, se podría obligar a [SCOPE.sC('vassal').GetTitledFirstName] a ser aún más imparcial de lo que pensábamos en su futura sucesión."
+ chancellor_task.3104.a:0 "¡Debemos proteger los derechos de los herederos de [SCOPE.sC('vassal').GetFirstName]!"
+ chancellor_task.3104.b:0 "Todo puede seguir como estaba, por un precio…"
+ chancellor_task.3104.c:0 "No hace falta fragmentar el país."

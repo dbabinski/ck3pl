@@ -1,0 +1,89 @@
+﻿l_spanish:
+ 
+ ###################
+ # Standard Events #
+ ###################
+
+ # Bankrupt, by Stephen Arthur and Sean Hughes
+ stewardship_wealth.1001.t:0 "¡Bancarrota!"
+ stewardship_wealth.1001.desc:0 "Mi tesoro está vacío, la despensa desierta. Hasta las ratas han sido vendidas para pagar los gastos, y aun así no consigo devolver todas las deudas que tengo.\n\n¿Cómo puedo salir de esta situación?"
+ stewardship_wealth.1001.a:0 "¡Examinad los libros de contabilidad para ver si hay algo que pueda ayudar!"
+ stewardship_wealth.1001.a.success:0 "Encuentro varias deudas pasadas por alto que puedo reclamar"
+ stewardship_wealth.1001.a.failure:0 "No encuentro nada que sea de ayuda"
+ stewardship_wealth.1001.b.havehook:0 "Reclamaré el favor que me debe [SCOPE.sC('wealthy_vassal').GetTitledFirstNameNoTooltip]."
+ stewardship_wealth.1001.b.givehook:0 "Le deberé un favor a [SCOPE.sC('wealthy_vassal').GetTitledFirstNameNoTooltip] si me ayuda."
+ stewardship_wealth.1001.c:0 "¡Exigiré tributo a mis vasallos!"
+ stewardship_wealth.1001.c.tt:0 "Todo vasallo:"
+ stewardship_wealth.1001.d:0 "Confiscando propiedades de la iglesia para conseguir fondos."
+ stewardship_wealth.1001.e:0 "Me apretaré el cinturón y ahorraré lo que pueda."
+ 
+ # Minting New Coins, bu Stephen Arthur and Sean Hughes
+ stewardship_wealth.1011.t:0 "Acuñando nuevas monedas"
+ stewardship_wealth.1011.desc:0 "Es mi derecho y responsabilidad decidir qué moneda se usa en todo [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nLa elección que haga decidirá cómo mi moneda -y por ende, mi señorío- se vea en todo el mundo."
+ stewardship_wealth.1011.a:0 "Acuñar monedas de plata para facilitar el comercio."
+ stewardship_wealth.1011.b:0 "¡Acuñad monedas de oro con mi semblante!"
+ stewardship_wealth.1011.c:0 "Devaluar la moneda con níquel barato."
+ stewardship_wealth.1011.c.success:0 "Me ahorro una fortuna acuñando moneda devaluada"
+ stewardship_wealth.1011.c.failure:0 "Todo el mundo se entera de lo rebajadas que están las nuevas monedas"
+ stewardship_wealth.1011.custom:0 "Todo condado de [THIS.Char.GetPrimaryTitle.GetName]"
+
+ # War Taxes, by Sean Hughes
+ stewardship_wealth.1021.t:0 "Pagando por la guerra"
+ stewardship_wealth.1021.desc:0 "Las guerras son caras y con mi tesoro vaciándose rápidamente, necesito pensar en cómo pagar para mantener a mis soldados en el campo de batalla."
+ stewardship_wealth.1021.a:0 "Recaudar impuestos extras a los campesinos."
+ stewardship_wealth.1021.a.custom:0 "Todo [county|E] de mi [domain|E]"
+ stewardship_wealth.1021.b:0 "Recortar los gastos militares no esenciales."
+ stewardship_wealth.1021.b.success:0 "Mejoro la eficiencia de mi presupuesto militar"
+ stewardship_wealth.1021.b.failure:0 "Recorté accidentalmente gastos militares cruciales"
+ stewardship_wealth.1021.c:1 "Las cosas se arreglarán al final. Siempre lo hacen."
+
+ # Wealthy free farmer wants to buy land, by Sean Hughes
+ stewardship_wealth.1051.t:0 "La fortuna del hombre libre"
+ stewardship_wealth.1051.desc:0 "[SCOPE.sC('freeman').GetFirstName], un[freeman.Custom('ES_XA')] ocupante libre que arrienda algunas de mis tierras en [SCOPE.sTitle('target_county').GetNameNoTier], ha conseguido una cosecha excepcional esta temporada gracias a su meticulosa planificación. \n\nAhora desea utilizar algunas de sus ganancias para comprar una porción de mi patrimonio de manera que pueda utilizar su éxito para tener más cosechas el año que viene."
+ stewardship_wealth.1051.a:0 "Olvidad las cosechas, ¡un[freeman.Custom('ES_XA')] [SCOPE.sC('freeman').GetWomanMan] como [SCOPE.sC('freeman').GetSheHe] debe estar en mi corte!"
+ stewardship_wealth.1051.a.arrogant:0 "¿Un campesino cultivado? ¡Qué novedoso! ¡#EMP Debéis#! uniros a mi corte!"
+ stewardship_wealth.1051.b:0 "Si puede pagarme en moneda, la tierra es suya."
+ stewardship_wealth.1051.d:0 "¡La tierra en [SCOPE.sTitle('target_county').GetNameNoTierNoTooltip] es mía y solo mía!"
+
+ # Pick a new thing to obtain, by Sean Hughes
+ stewardship_wealth.1061.t:0 "Nuevas adquisiciones"
+ stewardship_wealth.1061.desc:0 "Durante la gestión diaria de mi reino, he conocido varias oportunidades diferentes que puedo aprovechar.\n\nCada una de ellas tiene un gran potencial, pero de manera realista solo puedo dedicarme a una. Debo decidir qué es lo que en última instancia me daría más valor."
+ stewardship_wealth.1061.a:0 "He oído rumores del redescubrimiento de un libro perdido."
+ stewardship_wealth.1061.a.success:0 "El libro perdido contiene una gran riqueza de conocimientos"
+ stewardship_wealth.1061.a.failure:0 "El libro perdido solo era un viejo libro de contabilidad"
+ stewardship_wealth.1061.b:0 "A [SCOPE.sC('vassal').GetTitledFirstNameNoTooltip] le vendría bien ayuda para gestionar sus posesiones."
+ stewardship_wealth.1061.c:0 "Cerrar estos acuerdos comerciales llenará mi tesoro."
+
+ # Buy some cows, by Linnéa Thimrén
+ stewardship_wealth.5001.t:0 "Ganado brioso"
+ stewardship_wealth.5001.desc:0 "Un pago extra de un acuerdo reciente me ha puesto en posesión de un gran rebaño de ganado.\n\nSe me ha asegurado que los animales son de la mejor calidad, pero la cuestión de qué hacer con ellos sigue en el aire."
+ stewardship_wealth.5001.a:0 "[SCOPE.sTitle('capital').GetNameNoTierNoTooltip] prosperará con el rebaño."
+ stewardship_wealth.5001.b:0 "Es un rebaño hermoso, pero podría ser mayor…"
+ stewardship_wealth.5001.b.message_1:0 "Mi proyecto de cría tiene éxito"
+ stewardship_wealth.5001.b.message_2:0 "Mi proyecto de cría fracasa"
+ stewardship_wealth.5001.c:0 "Las pieles darán un bonito beneficio. ¡Traed el cuchillo!"
+
+ #Investment advice (wealth friend), by Mathilda Bjarnehed
+ stewardship_wealth.5002.t:0 "Un consejo"
+ stewardship_wealth.5002.start.desc:0 "Paseaba entre los puestos del mercado de [capital.GetNameNoTooltip], con una bolsa pesada colgando de mi cinto. ¿Cómo podrían servirme estas monedas?\n\nMientras admiro los productos de un "
+ stewardship_wealth.5002.safe_smithy.desc:0 "herrero local -buen acero,"
+ stewardship_wealth.5002.safe_mason.desc:0 "cantero local -geometría perfecta,"
+ stewardship_wealth.5002.safe_religious_sculptor.desc:0 "escultor local –imaginería [ROOT.Char.GetFaith.GetAdjectiveNoTooltip],"
+ stewardship_wealth.5002.safe_jeweler.desc:0 "joyero local -filigranas exquisitas,"
+ stewardship_wealth.5002.middle.desc:1 "una inversión razonable. [investor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] aparece a mi lado.\n\n"¿Me permitís un consejo, [ROOT.Char.Custom2('RelationToMeAddress', investor)]? Consultad el"
+ stewardship_wealth.5002.risky_smithy.desc:0 "la herrería"
+ stewardship_wealth.5002.risky_mason.desc:0 "el taller del cantero"
+ stewardship_wealth.5002.risky_religious_sculptor.desc:0 "el puesto del escultor"
+ stewardship_wealth.5002.risky_jeweler.desc:0 "el puesto del joyero"
+ stewardship_wealth.5002.end.desc:0 "de allí?. Las obras son sencillas, pero su potencial, enorme»."
+
+ stewardship_wealth.5002.b.success:0 "[investor.GetFirstNameNoTooltip] y yo nos unimos mediante una gran inversión"
+ stewardship_wealth.5002.b.failure:0 "La inversión fracasa"
+ stewardship_wealth.5002.b.failure.tt:0 "Pierdes el dinero invertido."
+
+ stewardship_wealth.5002.a.smithy:0 "Invertir en una herrería."
+ stewardship_wealth.5002.a.tavern:0 "Invertir en una taberna."
+ stewardship_wealth.5002.a.mason:0 "Invertir en un taller de cantería."
+ stewardship_wealth.5002.a.religious_sculptor:0 "Invertir en el taller de un escultor."
+ stewardship_wealth.5002.a.jeweler:0 "Invertir en el taller de un joyero."
+ stewardship_wealth.5002.c:0 "Da un beneficio rápido con unos intercambios inteligentes."

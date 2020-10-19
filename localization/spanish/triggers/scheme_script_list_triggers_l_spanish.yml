@@ -1,0 +1,11 @@
+﻿l_spanish:
+
+ ALL_SCHEMES:0 "Todas las conjuras:"
+ ANY_SCHEME:0 "Cualquier conjura:"
+ ALL_OF_MY_SCHEMES:1 "Todas tus conjuras:"
+ ANY_OF_MY_SCHEMES:1 "Cualquiera de tus conjuras:"
+ ALL_OF_THEIR_SCHEMES:0 "Todas las conjuras de [CHARACTER.GetShortUIName]:"
+ ANY_OF_THEIR_SCHEMES:0 "Cualquier conjura de [CHARACTER.GetShortUIName]:"
+
+ ALL_SCHEME_AGENTS:0 "Todos los agentes de la conjura [SCHEME.GetFullActionName]:"
+ ANY_SCHEME_AGENT:0 "Cualquier agente de la conjura [SCHEME.GetFullActionName]:"

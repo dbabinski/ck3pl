@@ -1,0 +1,11 @@
+﻿l_spanish:
+
+ ALL_PROVINCES:0 "Todas las baronías:"
+ ANY_PROVINCE:0 "Cualquier baronía:"
+
+ ALL_REALM_PROVINCES:0 "Todas las baronías del señorío:"
+ ANY_REALM_PROVINCE:0 "Cualquier baronía del señorío:"
+ ALL_OF_MY_REALM_PROVINCES:1 "Todas las baronías de tu señorío:"
+ ANY_OF_MY_REALM_PROVINCES:1 "Cualquiera de las baronías de tu señorío:"
+ ALL_OF_THEIR_REALM_PROVINCES:0 "Todas las baronías del señorío de [CHARACTER.GetShortUIName]:"
+ ANY_OF_THEIR_REALM_PROVINCES:0 "Cualquiera de las baronías del señorío de [CHARACTER.GetShortUIName]:"

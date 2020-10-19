@@ -1,0 +1,47 @@
+﻿l_simp_chinese:
+
+ RELIGION_TAG_TRIGGER:0 "是$RELIGION|V$的一部分"
+
+ FAITH_FERVOR_GLOBAL:0 "[fervor|E]$COMPARATOR$$NUM|V0$"
+ NOT_FAITH_FERVOR_GLOBAL:0 "[fervor|E]#bold 不#!$COMPARATOR$$NUM|V0$"
+ FAITH_FERVOR_THIRD:0 "[FAITH.GetName]的[fervor|E]$COMPARATOR$$NUM|V0$"
+ NOT_FAITH_FERVOR_THIRD:0 "[FAITH.GetName]的[fervor|E]#bold 不#!$COMPARATOR$$NUM|V0$"
+
+ FAITH_VIRTUES_GLOBAL:0 "拥有$NUM|V0$个[virtuous|E][traits|E]"
+ NOT_FAITH_VIRTUES_GLOBAL:0 "拥有的[virtuous|E][traits|E]少于$NUM|V0$个"
+ FAITH_VIRTUES_FIRST:0 "你拥有$NUM|V0$个[virtuous|E][traits|E]"
+ NOT_FAITH_VIRTUES_FIRST:0 "你拥有少于$NUM|V0$个[virtuous|E][traits|E]"
+ FAITH_VIRTUES_THIRD:0 "[CHARACTER.GetUIName]拥有$NUM|V0$个[virtuous|E][traits|E]"
+ NOT_FAITH_VIRTUES_THIRD:0 "[CHARACTER.GetUIName]拥有的[virtuous|E][traits|E]少于$NUM|V0$个"
+
+ FAITH_SINS_GLOBAL:0 "拥有$NUM|V0$个[sinful|E][traits|E]"
+ NOT_FAITH_SINS_GLOBAL:0 "拥有的[sinful|E][traits|E]少于$NUM|V0$个"
+ FAITH_SINS_FIRST:0 "你拥有$NUM|V0$个[sinful|E][traits|E]"
+ NOT_FAITH_SINS_FIRST:0 "你拥有少于$NUM|V0$个[sinful|E][traits|E]"
+ FAITH_SINS_THIRD:0 "[CHARACTER.GetUIName]拥有$NUM|V0$个[sinful|E][traits|E]"
+ NOT_FAITH_SINS_THIRD:0 "[CHARACTER.GetUIName]拥有的[sinful|E][traits|E]少于$NUM|V0$个"
+
+ HOLY_SITES_CONTROLLED_GLOBAL:0 "控制了$NUM|V0$个[holy_sites|E]"
+ NOT_HOLY_SITES_CONTROLLED_GLOBAL:0 "控制的[holy_sites|E]少于$NUM|V0$个"
+ HOLY_SITES_CONTROLLED_FIRST:0 "你控制了$NUM|V0$处[holy_sites|E]"
+ NOT_HOLY_SITES_CONTROLLED_FIRST:0 "你控制的[holy_sites|E]少于$NUM|V0$处"
+ HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetName]控制了$NUM|V0$个[holy_sites|E]"
+ NOT_HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetName]控制的[holy_sites|E]少于$NUM|V0$个"
+
+ RELIGION_IS_SAME_AS:0 "与[CHARACTER.GetShortUIName|V]拥有相同[religion|E]"
+ NOT_RELIGION_IS_SAME_AS:0 "与[TARGET_CHARACTER.GetShortUIName]的[religion|E]不同"
+ I_HAVE_SAME_RELIGION:0 "你与[TARGET_CHARACTER.GetShortUIName]的[religion|E]相同"
+ NOT_I_HAVE_SAME_RELIGION:0 "你与[TARGET_CHARACTER.GetShortUIName]的[religion|E]#bold 不#!同"
+ THEY_HAVE_SAME_RELIGION:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName][religion|E]相同"
+ NOT_THEY_HAVE_SAME_RELIGION:0 "[CHARACTER.GetShortUIName|U]与[TARGET_CHARACTER.GetShortUIName][religion|E]不同"
+
+ IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "[FAITH.GetName]的[doctrines]允许[rulers]授予[titles]给[CHARACTER.GetWomenMen]"
+ NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "[FAITH.GetName]的[doctrines]#bold 不#!允许[rulers]授予[titles]给[TARGET_CHARACTER.GetWomenMen]"
+
+ I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:0 "你持有至少$VALUE|0V$处[FAITH.GetName][holy_sites|E]"
+ I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:0 "你#bold 未#!持有至少$VALUE|0V$处[FAITH.GetName][holy_sites|E]"
+ 
+ NOT_RELIGION_TAG_TRIGGER:0 "你的[faith]#bold 不#!是$RELIGION|V$的一部分"
+
+ CAN_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName]允许[legitimized|E][bastards|E]"
+ CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName]#EMP 不#!允许[legitimized|E][bastards|E]"

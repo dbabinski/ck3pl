@@ -1,0 +1,10 @@
+﻿l_german:
+
+ DEVELOPMENT_LEVEL_TRIGGER:0 "Die [Concept('development', 'Entwicklungs')|E]-Stufe in [TITLE.GetName] ist $COMPARATOR$ $NUM|V$"
+ NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "Die [Concept('development', 'Entwicklungs')|E]-Stufe in [TITLE.GetName] ist #bold nicht#! $COMPARATOR$ $NUM|V$"
+ ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "Die [Concept('development', 'Entwicklungs')|E]-Stufe in [TITLE.GetName] ist $COMPARATOR$ $NUM|V$"
+
+ IS_COUNTY_CAPITAL_TRIGGER:0 "Das ist der [county_capital|E]"
+ NOT_IS_COUNTY_CAPITAL_TRIGGER:0 "Das ist #bold nicht#! der [county_capital|E]"
+
+ NOT_POTENTIAL_COUNTY_CONTROL_TASK_TRIGGER:1 "[TITLE.GetName] ist bereits bei 100 [control|E] und hat keine [county_corruption|E]"

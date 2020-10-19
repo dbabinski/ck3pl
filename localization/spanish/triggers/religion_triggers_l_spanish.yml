@@ -1,0 +1,47 @@
+﻿l_spanish:
+
+ RELIGION_TAG_TRIGGER:0 "Es parte del $RELIGION|V$"
+
+ FAITH_FERVOR_GLOBAL:0 "El [fervor|lE] es $COMPARATOR$ $NUM|V0$"
+ NOT_FAITH_FERVOR_GLOBAL:0 "El [fervor|lE] #bold no#! es $COMPARATOR$ $NUM|V0$"
+ FAITH_FERVOR_THIRD:0 "El [fervor|lE] de la fe [FAITH.GetAdjective] es $COMPARATOR$ $NUM|V0$"
+ NOT_FAITH_FERVOR_THIRD:0 "El [fervor|lE] de la fe [FAITH.GetAdjective] #bold no#! es $COMPARATOR$ $NUM|V0$"
+
+ FAITH_VIRTUES_GLOBAL:0 "Tiene $NUM|V0$ [traits|lE] [Concept( 'virtuous', 'virtuosos' )|E]"
+ NOT_FAITH_VIRTUES_GLOBAL:0 "Tiene menos de $NUM|V0$ [traits|lE] [Concept( 'virtuous', 'virtuosos' )|E]"
+ FAITH_VIRTUES_FIRST:1 "Tienes $NUM|V0$ [traits|lE] [Concept( 'virtuous', 'virtuosos' )|E]"
+ NOT_FAITH_VIRTUES_FIRST:1 "Tienes menos de $NUM|V0$ [traits|lE] [Concept( 'virtuous', 'virtuosos' )|E]"
+ FAITH_VIRTUES_THIRD:0 "[CHARACTER.GetUIName] tiene $NUM|V0$ [traits|lE] [Concept( 'virtuous', 'virtuosos' )|E]"
+ NOT_FAITH_VIRTUES_THIRD:0 "[CHARACTER.GetUIName] tiene menos de $NUM|V0$ [traits|lE] [Concept( 'virtuous', 'virtuosos' )|E]"
+
+ FAITH_SINS_GLOBAL:0 "Tiene $NUM|V0$ [traits|lE] [Concept( 'sinful', 'pecaminosos' )|E]"
+ NOT_FAITH_SINS_GLOBAL:0 "Tiene menos de $NUM|V0$ [traits|lE] [Concept( 'sinful', 'pecaminosos' )|E]"
+ FAITH_SINS_FIRST:1 "Tienes $NUM|V0$ [traits|lE] [Concept( 'sinful', 'pecaminosos' )|E]"
+ NOT_FAITH_SINS_FIRST:1 "Tienes menos de $NUM|V0$ [traits|lE] [Concept( 'sinful', 'pecaminosos' )|E]"
+ FAITH_SINS_THIRD:0 "[CHARACTER.GetUIName] tiene $NUM|V0$ [traits|lE] [Concept( 'sinful', 'pecaminosos' )|E]"
+ NOT_FAITH_SINS_THIRD:0 "[CHARACTER.GetUIName] tiene menos de $NUM|V0$ [traits|lE] [Concept( 'sinful', 'pecaminosos' )|E]"
+
+ HOLY_SITES_CONTROLLED_GLOBAL:0 "Tiene $NUM|V0$ [holy_sites|lE] bajo control"
+ NOT_HOLY_SITES_CONTROLLED_GLOBAL:0 "Tiene menos de $NUM|V0$ [holy_sites|lE] bajo control"
+ HOLY_SITES_CONTROLLED_FIRST:1 "Tienes $NUM|V0$ [holy_sites|lE] bajo control"
+ NOT_HOLY_SITES_CONTROLLED_FIRST:1 "Tienes menos de $NUM|V0$ [holy_sites|lE] bajo control"
+ HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetName] tiene $NUM|V0$ [holy_sites|lE] bajo control"
+ NOT_HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetName] tiene menos de $NUM|V0$ [holy_sites|lE] bajo control"
+
+ RELIGION_IS_SAME_AS:0 "Tiene la misma [religion|lE] que [TARGET_CHARACTER.GetShortUIName]"
+ NOT_RELIGION_IS_SAME_AS:0 "No tiene la misma [religion|lE] que [TARGET_CHARACTER.GetShortUIName]"
+ I_HAVE_SAME_RELIGION:1 "Tienes la misma [religion|lE] que [TARGET_CHARACTER.GetShortUIName]"
+ NOT_I_HAVE_SAME_RELIGION:1 "#bold No#! tienes la misma [religion|lE] que [TARGET_CHARACTER.GetShortUIName]"
+ THEY_HAVE_SAME_RELIGION:0 "[CHARACTER.GetShortUIName|U] tiene la misma [religion|lE] que [TARGET_CHARACTER.GetShortUIName]"
+ NOT_THEY_HAVE_SAME_RELIGION:0 "[CHARACTER.GetShortUIName|U] no tiene la misma [religion|lE] que [TARGET_CHARACTER.GetShortUIName]"
+
+ IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "Las [doctrines|lE] de [FAITH.GetName] permiten que los [rulers|lE] concedan [titles|lE] a [CHARACTER.Custom('ES_LosLas')|l] [CHARACTER.GetWomenMen]"
+ NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "Las [doctrines|lE] de [FAITH.GetName] #bold no#! permiten que los [rulers|lE] concedan [titles|lE] a [TARGET_CHARACTER.Custom('ES_LosLas')|l] [TARGET_CHARACTER.GetWomenMen]"
+
+ I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:0 "Tienes al menos $VALUE|0V$ [holy_sites|lE] de la fe [FAITH.GetAdjective]"
+ I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:0 "#bold No#! tienes al menos $VALUE|0V$ [holy_sites|lE] de la fe [FAITH.GetAdjective]"
+ 
+ NOT_RELIGION_TAG_TRIGGER:0 "Tu [faith|lE] #bold no#! es parte del $RELIGION|V$"
+
+ CAN_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName] permite que los [bastards|lE] sean [Concept( 'legitimized', 'legitimados' )|E]"
+ CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName] #EMP no#! permite que los [bastards|lE] sean [Concept( 'legitimized', 'legitimados' )|E]"

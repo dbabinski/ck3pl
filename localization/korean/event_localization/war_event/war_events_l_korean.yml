@@ -1,0 +1,62 @@
+﻿l_korean:
+
+ war_event.1901:1 "주군이 [defender_loser.GetShortUIName](와)과의 전쟁에서 승리함!"
+ war_event.1902:1 "주군이 [attacker_winner.GetShortUIName](와)과의 전쟁에서 패배함!"
+ war_event.1903:1 "주군이 [defender_white_peace.GetShortUIName](와)과의 무조건 평화 조약에 서명함!"
+ war_event.1904:1 "주군이 [attacker_white_peace.GetShortUIName](와)과의 무조건 평화 조약에 서명함!"
+ war_event.1905:1 "주군이 [attacker_winner.GetShortUIName](와)과의 전쟁에서 패배함!"
+ war_event.1906:1 "주군이 [attacker_loser.GetShortUIName](와)과의 전쟁에서 승리함!"
+ war_event.notification_liege_win.t:0 "주군이 전쟁에서 승리함"
+ war_event.notification_liege_loss.t:0 "주군이 전쟁에서 패배함"
+
+ war_event.1001.t:0 "나의 주군이 전쟁을 선포함"
+ war_event.1001.desc:0 "전쟁 중에 어찌 그리 상황이 급변할 수 있는지 희한할 따름이다.\n\n[recipient.Custom2('MyCharacterIntroduction', ROOT.Char)](와)과 전쟁을 벌이던 중 [liege_invalidator.Custom2('MyCharacterIntroduction', ROOT.Char)]의 서신이 날아들었다. 서신에는 싸움을 중단하고 자신을 따라 [recipient.GetTitledFirstName](와)과의 #EMP 전쟁#!에 참전하라는 내용이 담겨 있었다."
+ war_event.1001.a:0 "아니 그럼 내 전쟁은!? 이런 젠장!"
+
+ war_event.2001.t:0 "새로운 상대"
+ war_event.2001.desc:0 "이 세상에 확실한 것은 없다. 전쟁 중에는 더더욱. [war.GetName](이)라고 다를 건 없었다.\n\n전쟁 상대가 [previous_defender.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 아닌 [defender.Custom2('MyCharacterIntroduction', ROOT.Char)](으)로 바뀌었으니 현 상황을 재고해볼 필요가 있다."
+ war_event.2001.a:0 "내 목표는 여전히 동일하다."
+ war_event.2001.a.tt:0 "전쟁이 치열해짐"
+ war_event.2001.b:0 "이 이상 싸우는 건 최선의 선택이 아니다."
+
+ war_event.2002.t:0 "[invalidator.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.2002.desc:0 "그쪽과 전쟁 상대가 되는 불상사가 일어났지만 이는 제가 의도한 바가 절대 아닙니다. 군대는 바로 물리도록 하겠습니다."
+ war_event.2002.a:0 "현명한 선택이로다."
+
+ war_event.3001.t:0 "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.3001.desc:0 "2년 전 당신은 [war.GetName] 지원을 약조했음에도 불구하고 지금까지 단 한 번도 도운 적이 없습니다.\n\n저를 돕기 위해 일말의 노력도 하지 않으시는데 이 동맹이 다 무슨 소용입니까?"
+ war_event.3001.a:0 "군대를 즉시 보내도록 하겠소!"
+ war_event.3001.a.tt:0 "12개월 이내로 어떤 [war_contribution|E]도 하지 않으면 [prestige_level|E](을)를 잃게 됨과 동시에 [war_owner.GetTitledFirstNameNoTooltip](와)과의 동맹이 위태로워질 것이다!"
+ war_event.3001.b:0 "이 금화가 내 빈자리를 채워 주겠지..."
+ war_event.3001.b.tt:0 "[war.GetName]에 싸울 병력을 보낼 것이란 기대를 받지 않을 것임"
+ war_event.3001.c:0 "도와준다고 하지 말았어야 했는데, 미안하군."
+
+ war_event.3002.t:0 "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.3002.desc.start:0 "저를 돕기 위해 병력을 지원하기로 약속했음에도 불구하고 당신은 결국 군대를 보내지 않았습니다."
+ war_event.3002.desc.end.1:0 "맹세를 어겨 당신과 당신 가족에 먹칠을 하셨군요."
+ war_event.3003.desc.end.2:0 "이 일로 당신에 대한 신뢰가 많이 줄어들었습니다, [ROOT.Char.GetTitledFirstName]."
+ war_event.3002.1.a:0 "흠, 그렇군요."
+ war_event.3003.2.a:0 "다음 번에는 더 잘 하겠습니다."
+ war_event.3003.2.b:0 "그냥 동맹을 끊어버릴까...?"
+
+ war_event.neighbor_war.both_neighbors.t:0 "이웃의 전쟁이 종결됨"
+ war_event.neighbor_war.both_neighbors.desc:0 "당신의 이웃 국가인 [winner.GetTitledFirstName](이)가 [this_war.GetName]에서 [loser.GetTitledFirstName](을)를 상대로 승리했습니다!"
+
+ war_event.neighbor_war.only_winner.t:0 "인접 국가 지도자가 전쟁에서 승리함"
+ war_event.neighbor_war.only_winner.desc:2 "당신의 이웃 국가인 [winner.GetTitledFirstName](이)가 [this_war.GetName]에서 [loser.Custom2('YourCharacterIntroductionNoComma', this_player)](을)를 상대로 승리를 거머쥐었습니다!"
+
+ war_event.neighbor_war.only_loser.t:0 "인접 국가 지도자가 전쟁에서 패배함"
+ war_event.neighbor_war.only_loser.desc:1 "당신의 이웃인 [loser.GetTitledFirstName](이)가 [this_war.GetName]에서 [winner.Custom2('YourCharacterIntroductionNoComma', this_player)](을)를 상대로 패배하였습니다!"
+
+ #Holy wars "soft invalidated" by faith change
+ war_event.3101.t:0 "새로운 신앙"
+ war_event.3101.desc:0 "[defender.GetTitledFirstNamePossessive] [defender.GetFaith.GetNameNoTooltip](으)로의 개종 소식을 들었다. [ROOT.Char.GetFaith.HighGodName]도 없으니, [defender.GetPrimaryTitle.GetNameNoTierNoTooltip](을)를 상대로 전쟁을 할 명분이 생겼군."
+ war_event.3101.a:0 "무기를 꺼낼 때가 됐군."
+ war_event.3101.b.tt:0 "[war.GetName](이)가 계속됨"
+ war_event.3101.b:0 "전쟁 따위로 나를 막을 수 있다고 생각하는 건가? 하!"
+
+ war_event.3102.t:0 "[attacker.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ war_event.3102.desc:0 "당신의 [ROOT.Char.GetFaith.HighGodName]에 대한 새로운 신앙은 전혀 설득력이 없소. 따라서 나의 대의명분은 아직 정당하오. 자비 따위는 없을 줄 아시오."
+ war_event.3102.a:0 "[ROOT.Char.Custom('CulturalCurse')|U]!"
+
+

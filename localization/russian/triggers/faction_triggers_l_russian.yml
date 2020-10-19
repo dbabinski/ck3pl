@@ -1,0 +1,25 @@
+﻿l_russian:
+
+ CAN_CREATE_FACTION_TRIGGER:0 "Может создать фракцию $TYPE|V$ против персонажа [TARGET_CHARACTER.GetShortUIName]"
+ NOT_CAN_CREATE_FACTION_TRIGGER:0 "#bold Не#! может создать [Concept( 'faction', 'фракцию' )|E] $TYPE|V$ против персонажа [TARGET_CHARACTER.GetShortUIName]"
+ I_CAN_CREATE_FACTION_TRIGGER:0 "Вы можете создать [Concept( 'faction', 'фракцию' )|E] $TYPE|V$ против персонажа [TARGET_CHARACTER.GetShortUIName]"
+ NOT_I_CAN_CREATE_FACTION_TRIGGER:0 "Вы #bold не#! можете создать [Concept( 'faction', 'фракцию' )|E] $TYPE|V$ против персонажа [TARGET_CHARACTER.GetShortUIName]"
+ THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] может создать фракцию $TYPE|V$ против персонажа [TARGET_CHARACTER.GetShortUIName]"
+ NOT_THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold не#! может создать [Concept( 'faction', 'фракцию' )|E] $TYPE|V$ против персонажа [TARGET_CHARACTER.GetShortUIName]"
+
+ CAN_JOIN_FACTION_TRIGGER:0 "Может вступить во фракцию [FACTION.GetNameNoTooltip]"
+ NOT_CAN_JOIN_FACTION_TRIGGER:0 "#bold Не#! может вступить во фракцию [FACTION.GetNameNoTooltip]"
+ I_CAN_JOIN_FACTION_TRIGGER:0 "Вы можете вступить во фракцию [FACTION.GetNameNoTooltip]"
+ NOT_I_CAN_JOIN_FACTION_TRIGGER:0 "Вы #bold не#! можете вступить во фракцию [FACTION.GetNameNoTooltip]"
+ THEY_CAN_JOIN_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] может вступить во фракцию [FACTION.GetNameNoTooltip]"
+ NOT_THEY_CAN_JOIN_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold не#! может вступить во фракцию [FACTION.GetNameNoTooltip]"
+
+ WAS_BLOCKED_FROM_JOINING_TRIGGER:0 "Недавно запретили вступать во фракции"
+ I_WAS_BLOCKED_FROM_JOINING_TRIGGER:0 "Вам недавно запретили вступать во фракции"
+ THEY_WAS_BLOCKED_FROM_JOINING_TRIGGER:0 "Персонажу [CHARACTER.GetShortUIName|U] недавно запретили вступать во фракции"
+
+ BARONS_CANNOT_JOIN_INDEPENDENCE_FACTIONS:0 "[independence_factions|E] закрыты для [Concept( 'barons', 'баронов' )|El]"
+ 
+ CANNOT_START_FACTION_AGAINST_CHARACTER:0 "Не может быть сформирована [faction|El] против персонажа [CHARACTER.GetShortUIName]"
+
+ CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER:0 "У вас есть [Concept( 'modifier', 'модификатор' )|E], препятствующий вступлению во [Concept( 'faction', 'фракцию' )|E]"

@@ -1,0 +1,7 @@
+﻿l_spanish:
+ #PrisonType
+ prisontype_dungeon:0 "mazmorra"
+ prisontype_house_arrest:0 "arresto domiciliario"
+ #PrisonTypeCell
+ prisontypecell_dungeon_cell:0 "celda"
+ prisontypecell_house_arrest:0 "casa"

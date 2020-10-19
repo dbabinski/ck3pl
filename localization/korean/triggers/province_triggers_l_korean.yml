@@ -1,0 +1,10 @@
+﻿l_korean:
+
+ DEVELOPMENT_LEVEL_TRIGGER:0 "[TITLE.GetName]의 [development|E]가 $NUM|V$ $COMPARATOR$임"
+ NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "[TITLE.GetName]의 [development|E]가 $NUM|V$ $COMPARATOR$(이)가 #bold 아님#!"
+ ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "[TITLE.GetName]의 [development|E]가 $NUM|V$ $COMPARATOR$임"
+
+ IS_COUNTY_CAPITAL_TRIGGER:0 "해당 지역은 [county_capital|E]임"
+ NOT_IS_COUNTY_CAPITAL_TRIGGER:0 "해당 지역은 [county_capital|E]가 #bold 아님#!"
+
+ NOT_POTENTIAL_COUNTY_CONTROL_TASK_TRIGGER:1 "[TITLE.GetName]의 [control|E]이 100이고 [county_corruption|E]가 없음"

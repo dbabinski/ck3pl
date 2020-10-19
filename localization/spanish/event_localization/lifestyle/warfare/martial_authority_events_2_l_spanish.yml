@@ -1,0 +1,10 @@
+﻿l_spanish:
+ #You visit some baronies or go partying, by Ewan Cowhig Croft
+ martial_authority.5000.t:0 "Haciendo una gira por rincones apartados"
+ martial_authority.5000.authoritative_religion.desc:1 "Me froto las sienes palpitantes mientras un funcionario me lee el duodécimo comunicado de este año de [baron_1_lands.GetNameNoTier]. Varios de estos importantes feudos han visto debilitarse mi control en los últimos meses…\n\nUna pequeña gira por estas tierras remotas, como es el deber que me ha impuesto [ROOT.Char.GetFaith.HighGodName], los situaría algo más firmemente bajo mi dominio. Por otra parte, [party_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] me ha invitado a un festín privado…"
+ martial_authority.5000.relaxed_religion.desc:0 "Me froto las sienes palpitantes mientras un funcionario me lee el duodécimo comunicado de este año de [baron_1_lands.GetNameNoTier]. Varios de estos importantes feudos han visto disminuir mi control en los últimos meses, pero una pequeña gira por estas tierras remotas los pondría un poco más firmemente bajo mi control.\n\nPor otra parte, [party_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] me ha invitado a un banquete privado…"
+ martial_authority.5000.a:0 "Un[ROOT.Char.Custom('ES_XA')] buen[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip] visita a sus inferiores de vez en cuando."
+ martial_authority.5000.b:0 "¡Estoy #EMP obligad[ROOT.Char.Custom('ES_OA')]#! a ir a esa fiesta!"
+ martial_authority.5000.a.characters_baron_final_list:0 "[baron_1.GetShortUIName], [baron_2.GetShortUIName], y [baron_3.GetShortUIName]"
+ martial_authority.5000.a.land_baron_final_list:0 "[baron_1_lands.GetNameNoTier], [baron_2_lands.GetNameNoTier], y [baron_3_lands.GetNameNoTier]"
+ authority_central_control_modifier:0 "Supervisión feudal extensa"

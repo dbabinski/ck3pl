@@ -1,0 +1,11 @@
+﻿l_korean:
+
+ ALL_SCHEMES:0 "모든 모략:"
+ ANY_SCHEME:0 "임의의 모략:"
+ ALL_OF_MY_SCHEMES:1 "당신이 꾸미고 있는 모든 모략:"
+ ANY_OF_MY_SCHEMES:1 "당신이 꾸미고 있는 임의의 모략:"
+ ALL_OF_THEIR_SCHEMES:0 "[CHARACTER.GetShortUIName](이)가 꾸미고 있는 모든 모략:"
+ ANY_OF_THEIR_SCHEMES:0 "[CHARACTER.GetShortUIName](이)가 꾸미고 있는 임의의 모략:"
+
+ ALL_SCHEME_AGENTS:0 "[SCHEME.GetFullActionName]에 가담한 모든 공모자:"
+ ANY_SCHEME_AGENT:0 "[SCHEME.GetFullActionName]에 가담한 임의의 공모자:"

@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+ fabricate_hook_ongoing.0001.t:0 "$fabricate_hook_header$家族关系"
+ fabricate_hook_ongoing.0001.desc:0 "[target.GetTitledFirstNamePossessive]的[target.Custom2('RelationToMe', SCOPE.sC('family_member'))][family_member.GetTitledFirstName]表现得异常坦诚。甚至即便[target.GetFirstName]知道我的意图可能并不单纯，[family_member.GetSheHe]还是非常愿意回答我的问题。"
+ fabricate_hook_ongoing.0001.a:0 "“[target.GetSheHe]有什么我应该了解的弱点吗？”"
+ fabricate_hook_ongoing.0001.b:0 "“怎么才能接近[target.GetHerHim]？”"
+
+ fabricate_hook_ongoing.0002.t:0 "$fabricate_hook_header$不正当影响"
+ fabricate_hook_ongoing.0002.desc:0 "[target.GetTitledFirstName]在[target.GetHerHis]的[target.Custom2('RelationToMeShort', hooking_character )][hooking_character.GetTitledFirstName]身边时似乎显得格外小心。这种尊重只意味着一件事，那就是[hooking_character.GetFirstNameNoTooltip]抓住了[target.GetHerHim]的某些把柄。\n\n也许这里面有些东西我需要了解下？"
+ fabricate_hook_ongoing.0002.a:0 "我的间谍应该挖出这疑团的解释。"
+ fabricate_hook_ongoing.0002.b:0 "我必须知道[hooking_character.GetSheHe]让[target.GetHerHim]做了什么！"

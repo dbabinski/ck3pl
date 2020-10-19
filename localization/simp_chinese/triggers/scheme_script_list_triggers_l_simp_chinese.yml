@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+
+ ALL_SCHEMES:0 "所有计谋："
+ ANY_SCHEME:0 "任一计谋："
+ ALL_OF_MY_SCHEMES:0 "你的所有计谋："
+ ANY_OF_MY_SCHEMES:0 "你的任一计谋："
+ ALL_OF_THEIR_SCHEMES:0 "[CHARACTER.GetShortUINamePossessive]的所有计谋："
+ ANY_OF_THEIR_SCHEMES:0 "[CHARACTER.GetShortUINamePossessive]的任一计谋："
+
+ ALL_SCHEME_AGENTS:0 "[SCHEME.GetFullActionName]计谋的所有同谋："
+ ANY_SCHEME_AGENT:0 "[SCHEME.GetFullActionName]计谋的任一同谋："

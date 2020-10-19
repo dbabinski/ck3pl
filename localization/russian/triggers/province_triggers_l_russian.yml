@@ -1,0 +1,10 @@
+﻿l_russian:
+
+ DEVELOPMENT_LEVEL_TRIGGER:0 "Уровень [Concept( 'development', 'развития' )|E] в области [TITLE.GetName] $COMPARATOR$ $NUM|V$ "
+ NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "Уровень [Concept( 'development', 'развития' )|E] в области [TITLE.GetName] #bold не#! $COMPARATOR$ $NUM|V$"
+ ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "Уровень [Concept( 'development', 'развития' )|E] в области [TITLE.GetName] $COMPARATOR$ $NUM|V$"
+
+ IS_COUNTY_CAPITAL_TRIGGER:0 "[county_capital|E]"
+ NOT_IS_COUNTY_CAPITAL_TRIGGER:0 "Это #bold не#! [county_capital|El]"
+
+ NOT_POTENTIAL_COUNTY_CONTROL_TASK_TRIGGER:0 "[TITLE.GetName] имеет [Concept( 'control', 'контроль' )|E] на уровне 100, и во владении отсутствует [Concept( 'county_corruption', 'коррупция' )|E]"

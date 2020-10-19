@@ -1,0 +1,6 @@
+﻿l_spanish:
+ KILL_LIST:0 "Lista de muertes"
+ KILL_LIST_LABEL:0 "Muertes de [KillListWindow.GetCharacter.GetUIName|U]"
+ OPEN_KILL_LIST_TOOLTIP:0 "Abrir lista de muertes"
+ DEATH_DATE:0 "Fecha de muerte"
+ DEATH_REASON:0 "Motivo de la muerte"

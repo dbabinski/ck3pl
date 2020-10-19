@@ -1,0 +1,11 @@
+﻿l_german:
+
+ ALL_SCHEMES:0 "Alle Komplotte:"
+ ANY_SCHEME:0 "Ein beliebiges Komplott:"
+ ALL_OF_MY_SCHEMES:1 "Alle Eure Komplotte:"
+ ANY_OF_MY_SCHEMES:1 "Ein beliebiges Eurer Komplotte:"
+ ALL_OF_THEIR_SCHEMES:0 "Alle Komplotte von [CHARACTER.GetShortUIName]:"
+ ANY_OF_THEIR_SCHEMES:0 "Ein beliebiges Komplott von [CHARACTER.GetShortUIName]:"
+
+ ALL_SCHEME_AGENTS:0 "Alle Agenten des Komplotts ([SCHEME.GetFullActionName]):"
+ ANY_SCHEME_AGENT:0 "Ein beliebiger Agent des Komplotts ([SCHEME.GetFullActionName]):"

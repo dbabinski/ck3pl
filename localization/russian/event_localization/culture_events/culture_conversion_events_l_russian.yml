@@ -1,0 +1,6 @@
+﻿l_russian:
+ culture_conversion.0001.t:0 "[new_culture.GetName]ая жизнь"
+ culture_conversion.0001.desc:0 "[new_culture.GetAdjective]ие наряды, [new_culture.GetAdjective]ие привычки и [new_culture.GetCollectiveNoun], заполонившие столицу... Неудивительно, что [converting_liege.Custom2('MyCharacterIntroduction', ROOT.Char)], позабыв о [old_culture.GetAdjective]их корнях, считает себя частью [new_culture.GetAdjective]ого народа!"
+ culture_conversion.0001.a:0 "Все меняется — люди тоже."
+ culture_conversion.0001.b:0 "Отбрасывать наши старые традиции нехорошо."
+ culture_conversion.0001.c:0 "Мы должны идти в ногу со временем!"

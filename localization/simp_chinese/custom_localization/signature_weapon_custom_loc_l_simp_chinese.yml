@@ -1,0 +1,39 @@
+﻿l_simp_chinese:
+ signature_weapon_sword:0 "剑"
+ signature_weapon_sword_draw:0 "懒洋洋"
+ signature_weapon_sword_draws:0 "扬起"
+
+ signature_weapon_mace:0 "钉锤"
+ signature_weapon_mace_lift:0 "抬起"
+ signature_weapon_mace_lifts:0 "抬起"
+
+ signature_weapon_axe:0 "斧子"
+ signature_weapon_axe_heft:0 "扬起"
+ signature_weapon_axe_hefts:0 "扬起"
+
+ signature_weapon_hammer:0 "铁锤"
+ signature_weapon_hammer_raise:0 "举起"
+ signature_weapon_hammer_raises:0 "举起"
+
+ signature_weapon_spear:0 "长枪"
+ signature_weapon_spear_couch:0 "挺起"
+ signature_weapon_spear_couches:0 "挺起"
+
+ signature_weapon_dagger:0 "匕首"
+ signature_weapon_dagger_brandish:0 "挥舞起"
+ signature_weapon_dagger_brandishes:0 "挥舞起"
+
+ signature_weapon_a_quick_slash:0 "敏捷的一劈"
+ signature_weapon_a_mighty_heave:0 "有力的一掷"
+ signature_weapon_a_fast_thrust:0 "迅速的一刺"
+
+ signature_weapon_slash:0 "深深划开"
+ signature_weapon_crush:0 "敲碎了"
+ signature_weapon_pierce:0 "深深刺入"
+
+ signature_weapon_slash_present:0 "深深划开"
+ signature_weapon_crush_present:0 "敲碎了"
+ signature_weapon_pierce_present:0 "深深刺入"
+
+ article_a:0 "a"
+ article_an:0 "an"

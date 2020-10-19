@@ -1,0 +1,11 @@
+﻿l_german:
+
+ ALL_PROVINCES:0 "Alle Baronien:"
+ ANY_PROVINCE:0 "Eine beliebige Baronie:"
+
+ ALL_REALM_PROVINCES:0 "Alle Reichsbaronien:"
+ ANY_REALM_PROVINCE:0 "Eine beliebige Reichsbaronie:"
+ ALL_OF_MY_REALM_PROVINCES:1 "Alle Eure Reichsbaronien:"
+ ANY_OF_MY_REALM_PROVINCES:1 "Eine beliebige Eurer Reichsbaronien:"
+ ALL_OF_THEIR_REALM_PROVINCES:0 "Alle Reichsbaronien von [CHARACTER.GetShortUIName]:"
+ ANY_OF_THEIR_REALM_PROVINCES:0 "Eine beliebige Reichsbaronie von [CHARACTER.GetShortUIName]:"

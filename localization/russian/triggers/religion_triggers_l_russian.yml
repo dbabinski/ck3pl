@@ -1,0 +1,47 @@
+﻿l_russian:
+
+ RELIGION_TAG_TRIGGER:0 "Входит в $RELIGION|V$"
+
+ FAITH_FERVOR_GLOBAL:0 "[fervor|E] $COMPARATOR$ $NUM|V0$"
+ NOT_FAITH_FERVOR_GLOBAL:0 "[fervor|E] #bold не#! $NUM|V0$ $COMPARATOR$"
+ FAITH_FERVOR_THIRD:0 "[fervor|E] конфессии [FAITH.GetName] $COMPARATOR$ $NUM|V0$"
+ NOT_FAITH_FERVOR_THIRD:0 "[fervor|E] конфессии [FAITH.GetName] #bold не#! $COMPARATOR$ $NUM|V0$"
+
+ FAITH_VIRTUES_GLOBAL:0 "Имеет добродетельные [traits|El] в количестве $NUM|V0$"
+ NOT_FAITH_VIRTUES_GLOBAL:0 "Меньше $NUM|V0$ добродетельных свойств"
+ FAITH_VIRTUES_FIRST:0 "У вас не менее $NUM|V0$ [Concept( 'virtuous', 'добродетельных' )|E] [Concept( 'traits', 'свойств' )|E]"
+ NOT_FAITH_VIRTUES_FIRST:0 "У вас менее $NUM|V0$ [Concept( 'virtuous', 'добродетельных' )|E] [Concept( 'traits', 'свойств' )|E]"
+ FAITH_VIRTUES_THIRD:0 "[CHARACTER.GetUIName] имеет добродетельные [traits|E] в количестве $NUM|V0$"
+ NOT_FAITH_VIRTUES_THIRD:0 "[CHARACTER.GetUIName] имеет меньше $NUM|V0$ добродетельных свойств"
+
+ FAITH_SINS_GLOBAL:0 "Имеет греховные [traits|El] в количестве $NUM|V0$"
+ NOT_FAITH_SINS_GLOBAL:0 "Меньше $NUM|V0$ греховных свойств"
+ FAITH_SINS_FIRST:0 "У вас не менее $NUM|V0$ [Concept( 'sinful', 'греховных' )|E] [Concept( 'traits', 'свойств' )|E]"
+ NOT_FAITH_SINS_FIRST:0 "У вас менее $NUM|V0$ [Concept( 'sinful', 'греховных' )|E] [Concept( 'traits', 'свойств' )|E]"
+ FAITH_SINS_THIRD:0 "[CHARACTER.GetUIName] имеет греховные [traits|El] в количестве $NUM|V0$"
+ NOT_FAITH_SINS_THIRD:0 "[CHARACTER.GetUIName] имеет меньше $NUM|V0$ греховных свойств"
+
+ HOLY_SITES_CONTROLLED_GLOBAL:0 "Контролирует [holy_sites|El] в количестве $NUM|V0$"
+ NOT_HOLY_SITES_CONTROLLED_GLOBAL:0 "Контролирует [holy_sites|El] в количестве меньше $NUM|V0$"
+ HOLY_SITES_CONTROLLED_FIRST:0 "У вас есть контроль над $NUM|V0$ [Concept( 'holy_site', 'святынями' )|E]"
+ NOT_HOLY_SITES_CONTROLLED_FIRST:0 "Вы контролируете менее $NUM|V0$ [Concept( 'holy_site', 'святынь' )|E]"
+ HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetName] контролирует [holy_sites|El] в количестве $NUM|V0$"
+ NOT_HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetName] контролирует [holy_sites|El] в количестве меньше $NUM|V0$"
+
+ RELIGION_IS_SAME_AS:0 "Та же [religion|El], что и у персонажа [TARGET_CHARACTER.GetShortUIName]"
+ NOT_RELIGION_IS_SAME_AS:0 "Иная [religion|El], чем у персонажа [TARGET_CHARACTER.GetShortUIName]"
+ I_HAVE_SAME_RELIGION:0 "Вы и [TARGET_CHARACTER.GetShortUIName] исповедуете одну [Concept( 'religion', 'религию' )|E]"
+ NOT_I_HAVE_SAME_RELIGION:0 "Вы и [TARGET_CHARACTER.GetShortUIName] исповедуете #bold разные#! [Concept( 'religion', 'религии' )|E]"
+ THEY_HAVE_SAME_RELIGION:0 "У персонажа [CHARACTER.GetShortUIName|U] та же [religion|El], что и у персонажа [TARGET_CHARACTER.GetShortUIName]"
+ NOT_THEY_HAVE_SAME_RELIGION:0 "У персонажа [CHARACTER.GetShortUIName|U] иная [religion|El], нежели у персонажа [TARGET_CHARACTER.GetShortUIName]"
+
+ IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "[doctrines] конфессии [FAITH.GetName] гласят, что [CHARACTER.GetWomenMen] могут получать [titles] в дар от [Concept( 'rulers', 'правителей' )|E]"
+ NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "[doctrines] конфессии [FAITH.GetName] гласят, что [TARGET_CHARACTER.GetWomenMen] #bold не#! могут получать [titles] в дар от [Concept( 'rulers', 'правителей' )|E]"
+
+ I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:0 "У вас не менее $VALUE|0V$ [FAITH.GetName]их [Concept( 'holy_sites', 'священных мест' )|E]"
+ I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:0 "У вас #bold менее#! $VALUE|0V$[FAITH.GetName]их [Concept( 'holy_sites', 'священных мест' )|E]"
+ 
+ NOT_RELIGION_TAG_TRIGGER:0 "Ваша [faith] #bold не#! принадлежит к религии «$RELIGION|V$»"
+
+ CAN_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName] позволяет [Concept( 'legitimized', 'признавать' )|E] [Concept( 'bastards', 'бастардов' )|E]"
+ CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName] #EMP не#! позволяет [Concept( 'legitimized', 'признавать' )|E] [Concept( 'bastards', 'бастардов' )|E]"

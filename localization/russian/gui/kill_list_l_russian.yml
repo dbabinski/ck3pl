@@ -1,0 +1,6 @@
+﻿l_russian:
+ KILL_LIST:0 "Список убийств"
+ KILL_LIST_LABEL:0 "Убийства: [KillListWindow.GetCharacter.GetUINamePossessive|U]"
+ OPEN_KILL_LIST_TOOLTIP:0 "Открыть список убийств"
+ DEATH_DATE:0 "Дата смерти"
+ DEATH_REASON:0 "Причина смерти"

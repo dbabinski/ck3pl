@@ -1,0 +1,10 @@
+﻿l_spanish:
+
+ DEVELOPMENT_LEVEL_TRIGGER:0 "El nivel de [development|lE] en [TITLE.GetName] es $COMPARATOR$ $NUM|V$"
+ NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "El nivel de [development|lE] en [TITLE.GetName] no es $COMPARATOR$ $NUM|V$"
+ ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "El nivel de [development|lE] en [TITLE.GetName] es $COMPARATOR$ $NUM|V$"
+
+ IS_COUNTY_CAPITAL_TRIGGER:0 "Esta es la [county_capital|lE]"
+ NOT_IS_COUNTY_CAPITAL_TRIGGER:0 "Esta #bold no#! es la [county_capital|lE]"
+
+ NOT_POTENTIAL_COUNTY_CONTROL_TASK_TRIGGER:1 "[TITLE.GetName] ya está en 100 de [control|lE] y no tiene [county_corruption|lE]"

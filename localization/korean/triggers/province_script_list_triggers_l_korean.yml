@@ -1,0 +1,11 @@
+﻿l_korean:
+
+ ALL_PROVINCES:0 "모든 남작령:"
+ ANY_PROVINCE:0 "임의의 남작령:"
+
+ ALL_REALM_PROVINCES:0 "봉역 내에 있는 모든 남작령:"
+ ANY_REALM_PROVINCE:0 "봉역 내에 있는 임의의 남작령:"
+ ALL_OF_MY_REALM_PROVINCES:1 "당신의 봉역 내에 있는 모든 남작령:"
+ ANY_OF_MY_REALM_PROVINCES:1 "당신의 봉역 내에 있는 임의의 남작령:"
+ ALL_OF_THEIR_REALM_PROVINCES:0 "[CHARACTER.GetShortUINamePossessive] 봉역 내에 있는 모든 남작령:"
+ ANY_OF_THEIR_REALM_PROVINCES:0 "[CHARACTER.GetShortUINamePossessive] 봉역 내에 있는 임의의 남작령:"

@@ -1,0 +1,6 @@
+﻿l_german:
+ KILL_LIST:0 "Opferliste"
+ KILL_LIST_LABEL:0 "Opfer von [KillListWindow.GetCharacter.GetUIName|U]"
+ OPEN_KILL_LIST_TOOLTIP:0 "Opferliste öffnen"
+ DEATH_DATE:0 "Todesdatum"
+ DEATH_REASON:0 "Todesursache"

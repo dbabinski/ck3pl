@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+
+ ALL_PROVINCES:0 "所有男爵领："
+ ANY_PROVINCE:0 "任一男爵领："
+
+ ALL_REALM_PROVINCES:0 "领地内所有男爵领："
+ ANY_REALM_PROVINCE:0 "领地内任一男爵领："
+ ALL_OF_MY_REALM_PROVINCES:0 "你的领地内所有男爵领："
+ ANY_OF_MY_REALM_PROVINCES:0 "你的领地内任一男爵领："
+ ALL_OF_THEIR_REALM_PROVINCES:0 "[CHARACTER.GetShortUINamePossessive]领地内的所有男爵领："
+ ANY_OF_THEIR_REALM_PROVINCES:0 "[CHARACTER.GetShortUINamePossessive]领地内的任一男爵领："

@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+
+ DEVELOPMENT_LEVEL_TRIGGER:0 "[TITLE.GetName]的[development|E]等级$COMPARATOR$$NUM|V$"
+ NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "[TITLE.GetName]的[development|E]等级#bold 不#!$COMPARATOR$$NUM|V$"
+ ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "[TITLE.GetName]的[development|E]等级$COMPARATOR$$NUM|V$"
+
+ IS_COUNTY_CAPITAL_TRIGGER:0 "这是[county_capital|E]"
+ NOT_IS_COUNTY_CAPITAL_TRIGGER:0 "这里#bold 不是#![county_capital|E]"
+
+ NOT_POTENTIAL_COUNTY_CONTROL_TASK_TRIGGER:0 "[TITLE.GetName]已经处于100[control|E]，且没有[county_corruption|E]"

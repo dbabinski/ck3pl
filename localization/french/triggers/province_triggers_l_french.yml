@@ -1,0 +1,10 @@
+﻿l_french:
+
+ DEVELOPMENT_LEVEL_TRIGGER:0 "Le niveau de [development|El] en [TITLE.GetName] est $COMPARATOR$ $NUM|V$"
+ NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "Le niveau de [development|El] en [TITLE.GetName] n'est pas $COMPARATOR$ $NUM|V$"
+ ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "Le niveau de [development|El] en [TITLE.GetName] est $COMPARATOR$ $NUM|V$"
+
+ IS_COUNTY_CAPITAL_TRIGGER:0 "C'est la [county_capital|El]"
+ NOT_IS_COUNTY_CAPITAL_TRIGGER:0 "Ce n'est pas la [county_capital|El]"
+
+ NOT_POTENTIAL_COUNTY_CONTROL_TASK_TRIGGER:0 "[TITLE.GetName] est déjà à 100 de [Concept('control','contrôle')|E] et n'a pas de [Concept('county_corruption','corruption')|E]"
